@@ -1,0 +1,42 @@
+# Gold Tier Configuration
+version: "1.0.0"
+
+# LLM Configuration (OpenRouter API)
+llm:
+  provider: "openrouter"
+  model: "arcee-ai/trinity-large-preview:free"
+  base_url: "https://openrouter.ai/api/v1"
+  max_tokens: 4096
+  temperature: 0.7
+
+system:
+  vault_path: "/mnt/c/Users/Admin/AI_Employee_Vault"
+  log_level: "INFO"
+  timezone: "UTC"
+
+knowledge_base:
+  enabled: true
+  vector_db: "chromadb"
+  persist_directory: "Gold_Tier/Knowledge_Base/vector_db"
+  embedding_model: "all-MiniLM-L6-v2"
+  chunk_size: 1000
+  chunk_overlap: 200
+
+analytics:
+  enabled: true
+  generate_daily_report: true
+  generate_weekly_report: true
+  report_path: "Gold_Tier/Analytics/Reports"
+
+agents:
+  default_model: "arcee-ai/trinity-large-preview:free"
+  max_tokens: 4096
+  temperature: 0.7
+
+security:
+  audit_logging: true
+  audit_path: "Gold_Tier/Logs/audit_logs"
+
+workflows:
+  enabled: true
+  schedule_path: "Gold_Tier/Automation/schedules"

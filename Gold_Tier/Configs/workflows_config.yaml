@@ -1,0 +1,76 @@
+# Workflows Configuration
+
+workflows:
+  morning_briefing:
+    enabled: true
+    name: "Morning Intelligence Briefing"
+    trigger:
+      type: "schedule"
+      time: "09:00"
+      timezone: "UTC"
+    steps:
+      - process_emails
+      - analyze_calendar
+      - optimize_tasks
+      - generate_briefing
+    output: "Briefings/morning_briefing.md"
+
+  continuous_email:
+    enabled: true
+    name: "Continuous Email Intelligence"
+    trigger:
+      type: "interval"
+      minutes: 30
+    steps:
+      - fetch_emails
+      - analyze_emails
+      - auto_respond
+    max_auto_responses_per_run: 5
+
+  task_optimization:
+    enabled: true
+    name: "Hourly Task Optimization"
+    trigger:
+      type: "interval"
+      minutes: 60
+    steps:
+      - load_tasks
+      - apply_eisenhower
+      - optimize_schedule
+      - generate_recommendations
+    output: "Analytics/Reports/Daily/task_optimization.json"
+
+  meeting_prep:
+    enabled: true
+    name: "Automated Meeting Preparation"
+    trigger:
+      type: "event"
+      event: "meeting_scheduled"
+    steps:
+      - gather_context
+      - research_attendees
+      - generate_briefing
+    prep_hours_before: 2
+
+  daily_analytics:
+    enabled: true
+    name: "Daily Analytics Report"
+    trigger:
+      type: "schedule"
+      time: "18:00"
+    steps:
+      - collect_metrics
+      - analyze_trends
+      - generate_report
+    output: "Analytics/Reports/Daily/productivity_report.md"
+
+  knowledge_sync:
+    enabled: true
+    name: "Knowledge Base Sync"
+    trigger:
+      type: "interval"
+      minutes: 120
+    steps:
+      - scan_new_documents
+      - generate_embeddings
+      - update_vector_db

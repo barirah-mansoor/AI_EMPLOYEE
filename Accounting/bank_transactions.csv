@@ -1,0 +1,11 @@
+id,date,description,amount,category,status
+tx_001,2026-02-01,Netflix Subscription,-15.99,subscription,processed
+tx_002,2026-02-02,Spotify Premium,-9.99,subscription,processed
+tx_003,2026-02-05,Client Payment - Acme Corp,5000.00,income,processed
+tx_004,2026-02-10,GitHub Enterprise,-21.00,subscription,processed
+tx_005,2026-02-12,AWS Monthly Bill,-234.50,subscription,processed
+tx_006,2026-02-15,Notion Team,-96.00,subscription,processed
+tx_007,2026-02-18,Zoom Pro,-14.99,subscription,processed
+tx_008,2026-02-20,Client Payment - Beta Inc,2500.00,income,processed
+tx_009,2026-02-22,Office Supplies - Staples,-89.99,expense,processed
+tx_010,2026-02-24,Adobe Creative Cloud,-54.99,subscription,processed

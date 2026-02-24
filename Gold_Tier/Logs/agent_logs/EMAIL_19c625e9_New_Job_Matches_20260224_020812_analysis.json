@@ -1,0 +1,53 @@
+{
+  "file": "/mnt/c/Users/Admin/AI_Employee_Vault/Needs_Action/EMAIL_19c625e9_New_Job_Matches_20260224_020812.md",
+  "analysis": {
+    "sentiment": "neutral",
+    "urgency": "low",
+    "intent": "information",
+    "intent_details": "Notification about new job matches on Guru.com platform",
+    "key_topics": [
+      "job matches",
+      "freelance work",
+      "platform notification"
+    ],
+    "action_required": false,
+    "suggested_priority": "normal",
+    "confidence": 0.95,
+    "analyzed_at": "2026-02-24T05:33:15.615230",
+    "metadata": {
+      "file": "/mnt/c/Users/Admin/AI_Employee_Vault/Needs_Action/EMAIL_19c625e9_New_Job_Matches_20260224_020812.md"
+    }
+  },
+  "action_items": [],
+  "responses": [
+    {
+      "tone": "professional",
+      "subject": "Re: New Job Matches!",
+      "body": "Dear Guru.com Team,\n\nThank you for the notification regarding new job matches. I appreciate you keeping me informed about relevant opportunities on your platform.\n\nPlease continue to send updates about suitable projects that align with my profile and expertise.\n\nBest regards,\n[Your Name]",
+      "rationale": "A professional acknowledgment is appropriate for this informational email. The sender is simply notifying about new job matches, which requires no action but warrants a polite response to maintain professional communication."
+    },
+    {
+      "tone": "formal",
+      "subject": "Acknowledgement: New Job Matches Notification",
+      "body": "To Whom It May Concern,\n\nThis is to acknowledge receipt of your email dated February 15, 2026 regarding new job matches available through your platform. I have noted the information provided and will review the opportunities at my earliest convenience.\n\nPlease continue to forward relevant notifications as they become available.\n\nYours faithfully,\n[Your Name]",
+      "rationale": "A formal acknowledgment is suitable for a business communication from a professional platform. This response confirms receipt while maintaining appropriate professional distance and formality."
+    },
+    {
+      "tone": "professional",
+      "subject": "Job Matches Notification - Received",
+      "body": "Hello,\n\nThank you for the notification about new job matches on Guru.com. I've received your email and will review the opportunities you've identified.\n\nI appreciate your platform's efforts to connect freelancers with relevant projects.\n\nBest,\n[Your Name]",
+      "rationale": "A concise professional response acknowledges the informational email without being overly formal. This strikes the right balance for a routine notification from a business platform where no specific action is required."
+    }
+  ],
+  "auto_respond": {
+    "auto_respond": true,
+    "reason": "Meets auto-response criteria",
+    "recommended_response": {
+      "tone": "professional",
+      "subject": "Re: New Job Matches!",
+      "body": "Dear Guru.com Team,\n\nThank you for the notification regarding new job matches. I appreciate you keeping me informed about relevant opportunities on your platform.\n\nPlease continue to send updates about suitable projects that align with my profile and expertise.\n\nBest regards,\n[Your Name]",
+      "rationale": "A professional acknowledgment is appropriate for this informational email. The sender is simply notifying about new job matches, which requires no action but warrants a polite response to maintain professional communication."
+    }
+  },
+  "processed_at": "2026-02-24T05:33:35.759330"
+}

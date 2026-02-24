@@ -1,0 +1,53 @@
+{
+  "file": "/mnt/c/Users/Admin/AI_Employee_Vault/Needs_Action/EMAIL_19c63ad2_Senior_Angular_Front_20260224_020811.md",
+  "analysis": {
+    "sentiment": "neutral",
+    "urgency": "low",
+    "intent": "information",
+    "intent_details": "Providing job recommendations from Glassdoor",
+    "key_topics": [
+      "job recommendations",
+      "Glassdoor",
+      "employment opportunities"
+    ],
+    "action_required": false,
+    "suggested_priority": "normal",
+    "confidence": 0.95,
+    "analyzed_at": "2026-02-24T05:34:36.316436",
+    "metadata": {
+      "file": "/mnt/c/Users/Admin/AI_Employee_Vault/Needs_Action/EMAIL_19c63ad2_Senior_Angular_Front_20260224_020811.md"
+    }
+  },
+  "action_items": [],
+  "responses": [
+    {
+      "tone": "professional",
+      "subject": "Re: Senior Angular Frontend Developer at Intuon Group LLC and 11 more jobs in Islamic Republic of Pakistan for you. Apply Now.",
+      "body": "Dear Glassdoor Jobs,\n\nThank you for sending the job recommendations for Senior Angular Frontend Developer positions in Islamic Republic of Pakistan. I have received your email and will review the opportunities you've shared.\n\nPlease keep me updated on any new relevant positions that match my profile.\n\nBest regards,\n[Your Name]",
+      "rationale": "This response acknowledges receipt of the job notification in a professional manner while maintaining appropriate boundaries. It confirms the user received the information without committing to any action, which is suitable for a notification email."
+    },
+    {
+      "tone": "formal",
+      "subject": "Acknowledgment: Job Recommendations - Senior Angular Frontend Developer",
+      "body": "To Whom It May Concern,\n\nI hereby acknowledge receipt of your email dated February 15, 2026, regarding job opportunities for Senior Angular Frontend Developer positions in Islamic Republic of Pakistan. Your communication has been noted and will be reviewed accordingly.\n\nPlease consider this email as formal acknowledgment of your notification.\n\nSincerely,\n[Your Name]",
+      "rationale": "This formal response provides a clear acknowledgment of the notification email, treating it as a formal business communication. It's appropriate for maintaining professional correspondence while confirming receipt of the information."
+    },
+    {
+      "tone": "professional",
+      "subject": "Job Opportunities - Senior Angular Frontend Developer",
+      "body": "Hello,\n\nThank you for the job recommendations for Senior Angular Frontend Developer positions in Islamic Republic of Pakistan. I appreciate you sharing these opportunities with me.\n\nI will review the positions you've highlighted and consider applying to those that align with my career goals and qualifications.\n\nBest regards,\n[Your Name]",
+      "rationale": "This response expresses gratitude for the job recommendations while indicating the user will review and potentially act on the information. It maintains a professional tone while showing engagement with the content of the notification."
+    }
+  ],
+  "auto_respond": {
+    "auto_respond": true,
+    "reason": "Meets auto-response criteria",
+    "recommended_response": {
+      "tone": "professional",
+      "subject": "Re: Senior Angular Frontend Developer at Intuon Group LLC and 11 more jobs in Islamic Republic of Pakistan for you. Apply Now.",
+      "body": "Dear Glassdoor Jobs,\n\nThank you for sending the job recommendations for Senior Angular Frontend Developer positions in Islamic Republic of Pakistan. I have received your email and will review the opportunities you've shared.\n\nPlease keep me updated on any new relevant positions that match my profile.\n\nBest regards,\n[Your Name]",
+      "rationale": "This response acknowledges receipt of the job notification in a professional manner while maintaining appropriate boundaries. It confirms the user received the information without committing to any action, which is suitable for a notification email."
+    }
+  },
+  "processed_at": "2026-02-24T05:34:48.168423"
+}
