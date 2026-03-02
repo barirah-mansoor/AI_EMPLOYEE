@@ -1,0 +1,178 @@
+{
+  "generated_at": "2026-02-28T19:08:10.702564",
+  "tasks_analyzed": 3,
+  "eisenhower_matrix": {
+    "urgent_important": [
+      {
+        "task": "Gold Tier Morning Briefing for February 24, 2026",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Contains actionable intelligence summary with processed emails and task optimization recommendations that require immediate attention",
+        "suggested_action": "Do first"
+      },
+      {
+        "task": "Gold Tier Morning Briefing for February 28, 2026",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Contains actionable intelligence summary with processed emails and task optimization recommendations that require immediate attention",
+        "suggested_action": "Do first"
+      }
+    ],
+    "important_not_urgent": [
+      {
+        "task": "Build Gold Tier System",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "Long-running multi-step task that is important for system development but not time-critical",
+        "suggested_action": "Schedule time"
+      }
+    ],
+    "urgent_not_important": [],
+    "not_urgent_not_important": [],
+    "summary": {
+      "total_tasks": 3,
+      "do_first_count": 2,
+      "schedule_count": 1,
+      "delegate_count": 0,
+      "eliminate_count": 0
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-10:30",
+        "task": "Gold Tier Morning Briefing for February 24, 2026",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:30-11:00",
+        "task": "Gold Tier Morning Briefing for February 28, 2026",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "11:00-12:30",
+        "task": "Build Gold Tier System",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:30-13:30",
+        "task": "Lunch Break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:30-15:00",
+        "task": "Build Gold Tier System (continued)",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "15:00-15:30",
+        "task": "Administrative tasks",
+        "category": "admin",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "15:30-16:00",
+        "task": "Build Gold Tier System (final session)",
+        "category": "deep_work",
+        "energy_level": "low",
+        "focus_required": true
+      },
+      {
+        "time_block": "16:00-17:00",
+        "task": "Review and plan for tomorrow",
+        "category": "admin",
+        "energy_level": "low",
+        "focus_required": false
+      }
+    ],
+    "deep_work_blocks": [
+      "09:00-10:30",
+      "10:30-11:00",
+      "11:00-12:30",
+      "13:30-15:00",
+      "15:30-16:00"
+    ],
+    "admin_blocks": [
+      "15:00-15:30",
+      "16:00-17:00"
+    ],
+    "breaks": [
+      "12:30-13:30"
+    ],
+    "protected_time": "09:00-12:30 and 13:30-16:00 are protected for deep work on important tasks",
+    "flexibility_buffer": "15:00-15:30 is reserved for unexpected urgent tasks"
+  },
+  "bottlenecks": {
+    "bottlenecks": [
+      {
+        "type": "time",
+        "description": "Gold Tier Morning Briefings are being generated but may not be reviewed promptly due to other task priorities",
+        "blocking_tasks": [
+          "Build Gold Tier System"
+        ],
+        "resolution": "Schedule dedicated time blocks for reviewing briefing content before starting long-running tasks"
+      }
+    ],
+    "overloaded_areas": [],
+    "resource_conflicts": [],
+    "recommendations": [
+      "Implement a review cycle for briefing content before starting long-running tasks",
+      "Consider consolidating briefing generation to reduce redundant processing",
+      "Set up automated alerts for when briefing content contains urgent items requiring immediate action"
+    ],
+    "risk_level": "low"
+  },
+  "recommendations": {
+    "priority_actions": [
+      {
+        "action": "Review Gold Tier Morning Briefing for February 24, 2026",
+        "impact": "high",
+        "effort": "medium",
+        "deadline": "09:00-10:30 today"
+      },
+      {
+        "action": "Review Gold Tier Morning Briefing for February 28, 2026",
+        "impact": "high",
+        "effort": "medium",
+        "deadline": "10:30-11:00 today"
+      },
+      {
+        "action": "Continue building Gold Tier System",
+        "impact": "high",
+        "effort": "high",
+        "deadline": "11:00-12:30 and 13:30-15:00 today"
+      }
+    ],
+    "focus_recommendations": [
+      "Use the first deep work block (09:00-10:30) for reviewing briefing content without interruptions",
+      "Maintain focus during deep work blocks by turning off notifications and using Pomodoro technique",
+      "Complete the most cognitively demanding parts of the Gold Tier System build during high-energy periods"
+    ],
+    "delegation_opportunities": [],
+    "time_saving_tips": [
+      "Consolidate briefing review to reduce context switching",
+      "Use the 15:00-15:30 buffer for unexpected urgent tasks to protect deep work blocks",
+      "Batch similar administrative tasks together in the 15:00-15:30 and 16:00-17:00 blocks"
+    ],
+    "weekly_goals": [
+      "Complete the Gold Tier System build",
+      "Establish a consistent briefing review process",
+      "Implement automated alerts for urgent briefing items"
+    ],
+    "avoid_these": [
+      "Checking emails during deep work blocks",
+      "Starting long-running tasks before reviewing briefing content",
+      "Scheduling meetings during protected deep work hours"
+    ],
+    "energy_management": "Schedule high-focus tasks during peak energy hours (09:00-12:30), use lunch break for mental recovery, and tackle administrative tasks when energy naturally dips (afternoon)",
+    "generated_at": "2026-02-28T19:08:10.702543"
+  }
+}

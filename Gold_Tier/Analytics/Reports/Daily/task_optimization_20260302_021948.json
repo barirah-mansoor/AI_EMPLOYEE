@@ -1,0 +1,212 @@
+{
+  "generated_at": "2026-03-02T02:19:47.216172",
+  "tasks_analyzed": 5,
+  "eisenhower_matrix": {
+    "urgent_important": [
+      {
+        "task": "Review urgent emails",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Briefing indicates 51 emails requiring attention, which represents a significant volume of urgent communication",
+        "suggested_action": "Do first"
+      }
+    ],
+    "important_not_urgent": [
+      {
+        "task": "Complete high-priority tasks",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Task optimization analysis was performed, indicating important work that needs to be completed",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Build Gold Tier System",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "Long-running task that appears to be in progress, representing important system development work",
+        "suggested_action": "Schedule time"
+      }
+    ],
+    "urgent_not_important": [],
+    "not_urgent_not_important": [
+      {
+        "task": "Review meeting briefing",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Meeting is scheduled but no specific agenda or attendees provided, suggesting routine nature",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Generate morning briefings",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Automated reports with no urgent emails and routine recommendations",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Generate morning briefings",
+        "original_file": "gold_briefing_20260301.md",
+        "reason": "Automated reports with no urgent emails and routine recommendations",
+        "suggested_action": "Consider eliminating"
+      }
+    ],
+    "summary": {
+      "total_tasks": 6,
+      "do_first_count": 1,
+      "schedule_count": 2,
+      "delegate_count": 0,
+      "eliminate_count": 3
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-10:30",
+        "task": "Review urgent emails",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:30-11:30",
+        "task": "Complete high-priority tasks",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "11:30-12:30",
+        "task": "Build Gold Tier System",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:30-13:30",
+        "task": "Lunch break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:30-15:00",
+        "task": "Complete high-priority tasks",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "15:00-15:30",
+        "task": "Review meeting briefing",
+        "category": "admin",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "15:30-16:30",
+        "task": "Build Gold Tier System",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "16:30-17:00",
+        "task": "Administrative tasks",
+        "category": "admin",
+        "energy_level": "low",
+        "focus_required": false
+      }
+    ],
+    "deep_work_blocks": [
+      "10:30-11:30",
+      "11:30-12:30",
+      "13:30-15:00",
+      "15:30-16:30"
+    ],
+    "admin_blocks": [
+      "09:00-10:30",
+      "15:00-15:30",
+      "16:30-17:00"
+    ],
+    "breaks": [
+      "12:30-13:30"
+    ],
+    "protected_time": "Morning hours (09:00-12:30) protected for high-priority tasks and deep work",
+    "flexibility_buffer": "15:30-15:30 block reserved for unexpected urgent tasks"
+  },
+  "bottlenecks": {
+    "bottlenecks": [
+      {
+        "type": "time",
+        "description": "Email processing is blocking task completion",
+        "blocking_tasks": [
+          "Review urgent emails",
+          "Complete high-priority tasks"
+        ],
+        "resolution": "Process urgent emails first (51 emails identified), then schedule dedicated blocks for high-priority tasks"
+      },
+      {
+        "type": "dependency",
+        "description": "Gold Tier System development is in progress but may lack clear completion criteria",
+        "blocking_tasks": [
+          "Build Gold Tier System"
+        ],
+        "resolution": "Review CURRENT_TASK.md to establish clear completion criteria and iteration limits (MAX_ITERATIONS=10)"
+      }
+    ],
+    "overloaded_areas": [
+      "Email management",
+      "Automated briefing generation"
+    ],
+    "resource_conflicts": [
+      "Claude AI is being used for both task execution and generating routine briefings that provide no new actionable information"
+    ],
+    "recommendations": [
+      "Process the 51 urgent emails immediately to clear the bottleneck",
+      "Eliminate or automate the routine briefing generation to free up resources",
+      "Set clear iteration limits for the Gold Tier System task to prevent infinite loops",
+      "Schedule dedicated deep work blocks for high-priority tasks after email processing"
+    ],
+    "risk_level": "medium"
+  },
+  "recommendations": {
+    "priority_actions": [
+      {
+        "action": "Process the 51 urgent emails immediately",
+        "impact": "high",
+        "effort": "medium",
+        "deadline": "09:00-10:30 today"
+      },
+      {
+        "action": "Complete high-priority tasks during scheduled deep work blocks",
+        "impact": "high",
+        "effort": "high",
+        "deadline": "10:30-11:30 and 13:30-15:00 today"
+      },
+      {
+        "action": "Review CURRENT_TASK.md to establish clear completion criteria for Gold Tier System",
+        "impact": "medium",
+        "effort": "low",
+        "deadline": "11:30-12:30 today"
+      }
+    ],
+    "focus_recommendations": [
+      "Protect morning hours (09:00-12:30) for high-priority tasks and deep work",
+      "Use 15:30-15:30 buffer for unexpected urgent tasks",
+      "Eliminate routine briefing generation to free up resources"
+    ],
+    "delegation_opportunities": [],
+    "time_saving_tips": [
+      "Process urgent emails first to clear bottleneck before deep work",
+      "Set iteration limits for Gold Tier System development to prevent infinite loops",
+      "Schedule administrative tasks during low-energy periods"
+    ],
+    "weekly_goals": [
+      "Complete Gold Tier System development with clear iteration limits",
+      "Establish efficient email processing routine to prevent future bottlenecks",
+      "Optimize automated briefing generation to provide actionable insights"
+    ],
+    "avoid_these": [
+      "Spending time on routine briefings that provide no new actionable information",
+      "Starting deep work before clearing urgent email backlog",
+      "Working on Gold Tier System without clear completion criteria"
+    ],
+    "energy_management": "Schedule high-energy tasks (email processing, deep work) during morning hours when energy is high, administrative tasks during low-energy periods, and protect breaks to maintain sustainable energy levels throughout the day",
+    "generated_at": "2026-03-02T02:19:47.216149"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "generated_at": "2026-03-01T15:15:14.662733",
+  "tasks_analyzed": 4,
+  "eisenhower_matrix": {
+    "urgent_important": [
+      {
+        "task": "Review urgent emails from Gold Tier briefing",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "The briefing indicates 51 emails requiring attention, which represents a significant volume that needs immediate attention",
+        "suggested_action": "Do first / immediate action"
+      }
+    ],
+    "important_not_urgent": [
+      {
+        "task": "Complete high-priority tasks first",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Task optimization recommendations suggest focusing on high-priority work, which is important for long-term productivity",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Deep work is crucial for high-value output and long-term success",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Review urgent emails from Gold Tier briefing",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "While no emails are currently urgent, email management is an important ongoing task",
+        "suggested_action": "Schedule time"
+      }
+    ],
+    "urgent_not_important": [],
+    "not_urgent_not_important": [
+      {
+        "task": "General meeting preparation",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "The meeting has no specific agenda or attendees, suggesting it's routine without clear purpose",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Gold Tier Morning Briefing generation",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "The briefing shows 0 emails and 3 tasks analyzed, indicating low activity",
+        "suggested_action": "Consider eliminating"
+      }
+    ],
+    "summary": {
+      "total_tasks": 4,
+      "do_first_count": 1,
+      "schedule_count": 3,
+      "delegate_count": 0,
+      "eliminate_count": 0
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-10:30",
+        "task": "Review urgent emails from Gold Tier briefing",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:30-12:00",
+        "task": "Complete high-priority tasks first",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:00-13:00",
+        "task": "Lunch break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:00-15:00",
+        "task": "Complete high-priority tasks first",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "15:00-15:30",
+        "task": "Review urgent emails from Gold Tier briefing",
+        "category": "admin",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "15:30-16:30",
+        "task": "Complete high-priority tasks first",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "16:30-17:00",
+        "task": "Review day's progress and plan tomorrow",
+        "category": "admin",
+        "energy_level": "low",
+        "focus_required": false
+      }
+    ],
+    "deep_work_blocks": [
+      "10:30-12:00",
+      "13:00-15:00",
+      "15:30-16:30"
+    ],
+    "admin_blocks": [
+      "09:00-10:30",
+      "15:00-15:30",
+      "16:30-17:00"
+    ],
+    "breaks": [
+      "12:00-13:00"
+    ],
+    "protected_time": "Three deep work blocks (10:30-12:00, 13:00-15:00, 15:30-16:30) are protected for high-priority tasks and focused work",
+    "flexibility_buffer": "15:00-15:30 block provides flexibility for unexpected urgent tasks or extended email review"
+  },
+  "bottlenecks": {
+    "bottlenecks": [],
+    "recommendations": [],
+    "risk_level": "unknown"
+  },
+  "recommendations": {
+    "priority_actions": [
+      {
+        "action": "Review urgent emails from Gold Tier briefing (51 emails)",
+        "impact": "high",
+        "effort": "medium",
+        "deadline": "09:00-10:30 today"
+      },
+      {
+        "action": "Complete high-priority tasks first",
+        "impact": "high",
+        "effort": "high",
+        "deadline": "10:30-12:00 and 13:00-15:00 today"
+      },
+      {
+        "action": "Protect deep work time blocks",
+        "impact": "high",
+        "effort": "low",
+        "deadline": "Ongoing - maintain scheduled blocks"
+      }
+    ],
+    "focus_recommendations": [
+      "Maintain three deep work blocks (10:30-12:00, 13:00-15:00, 15:30-16:30)",
+      "Avoid context switching during deep work periods",
+      "Use 15:00-15:30 block for email review to prevent inbox overload"
+    ],
+    "delegation_opportunities": [],
+    "time_saving_tips": [
+      "Batch email review to specific time blocks",
+      "Use the flexibility buffer (15:00-15:30) for unexpected tasks",
+      "End day with 30-minute planning session for tomorrow"
+    ],
+    "weekly_goals": [
+      "Complete all high-priority tasks",
+      "Maintain protected deep work blocks",
+      "Achieve inbox zero by end of each day"
+    ],
+    "avoid_these": [
+      "Checking emails outside scheduled blocks",
+      "Scheduling meetings during deep work blocks",
+      "Starting day without clear priority list"
+    ],
+    "energy_management": "Schedule high-focus tasks (email review, deep work) during high-energy morning hours. Use lunch break for energy recovery. Reserve low-energy afternoon for email review and planning. Protect deep work blocks when energy is medium-high.",
+    "generated_at": "2026-03-01T15:15:14.662708"
+  }
+}

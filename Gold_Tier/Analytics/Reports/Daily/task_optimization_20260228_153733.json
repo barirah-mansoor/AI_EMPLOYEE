@@ -1,0 +1,176 @@
+{
+  "generated_at": "2026-02-28T15:37:33.956338",
+  "tasks_analyzed": 3,
+  "eisenhower_matrix": {
+    "urgent_important": [
+      {
+        "task": "Gold Tier Morning Briefing generation",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "This is a daily automated briefing that needs to be generated and reviewed each morning to stay informed about email intelligence and task optimization",
+        "suggested_action": "Do first / immediate action"
+      },
+      {
+        "task": "Gold Tier Morning Briefing generation",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "This is a daily automated briefing that needs to be generated and reviewed each morning to stay informed about email intelligence and task optimization",
+        "suggested_action": "Do first / immediate action"
+      }
+    ],
+    "important_not_urgent": [
+      {
+        "task": "Current task tracking system setup",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "This is a system for tracking long-running tasks with status management, but it's currently idle with no active task",
+        "suggested_action": "Schedule time"
+      }
+    ],
+    "urgent_not_important": [],
+    "not_urgent_not_important": [],
+    "summary": {
+      "total_tasks": 3,
+      "do_first_count": 2,
+      "schedule_count": 1,
+      "delegate_count": 0,
+      "eliminate_count": 0
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-09:30",
+        "task": "Gold Tier Morning Briefing generation",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "09:30-10:30",
+        "task": "Gold Tier Morning Briefing generation",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:30-11:00",
+        "task": "Break",
+        "category": "break",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "11:00-12:30",
+        "task": "Current task tracking system setup",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:30-13:30",
+        "task": "Lunch",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:30-15:00",
+        "task": "Current task tracking system setup",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "15:00-15:30",
+        "task": "Break",
+        "category": "break",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "15:30-17:00",
+        "task": "Email processing and task review",
+        "category": "admin",
+        "energy_level": "low",
+        "focus_required": false
+      }
+    ],
+    "deep_work_blocks": [
+      "11:00-12:30",
+      "13:30-15:00"
+    ],
+    "admin_blocks": [
+      "09:00-10:30",
+      "15:30-17:00"
+    ],
+    "breaks": [
+      "10:30-11:00",
+      "12:30-13:30",
+      "15:00-15:30"
+    ],
+    "protected_time": "11:00-15:00 is protected for deep work on the task tracking system",
+    "flexibility_buffer": "15:30-17:00 reserved for unexpected tasks or overflow work"
+  },
+  "bottlenecks": {
+    "bottlenecks": [
+      {
+        "type": "information",
+        "description": "Current task tracking system is idle with no active task, preventing proper task progress monitoring",
+        "blocking_tasks": [
+          "CURRENT_TASK.md"
+        ],
+        "resolution": "Set an active task in the tracking system to enable proper progress monitoring and Ralph Wiggum Stop hook functionality"
+      }
+    ],
+    "overloaded_areas": [],
+    "resource_conflicts": [],
+    "recommendations": [
+      "Activate the current task tracking system by setting an active task",
+      "Review the two Gold Tier Morning Briefing files to ensure they are being generated and processed correctly",
+      "Consider consolidating briefing generation to prevent duplicate entries"
+    ],
+    "risk_level": "low"
+  },
+  "recommendations": {
+    "priority_actions": [
+      {
+        "action": "Generate and review Gold Tier Morning Briefing for today (gold_briefing_20260228.md)",
+        "impact": "high",
+        "effort": "low",
+        "deadline": "09:00-09:30 today"
+      },
+      {
+        "action": "Set an active task in the current task tracking system to enable proper progress monitoring",
+        "impact": "medium",
+        "effort": "medium",
+        "deadline": "11:00-12:30 today"
+      },
+      {
+        "action": "Review both Gold Tier Morning Briefing files to identify why there are duplicate entries and consolidate if needed",
+        "impact": "medium",
+        "effort": "low",
+        "deadline": "15:30-17:00 today"
+      }
+    ],
+    "focus_recommendations": [
+      "Protect deep work blocks (11:00-12:30 and 13:30-15:00) for the task tracking system setup",
+      "Minimize context switching between briefing generation and deep work tasks",
+      "Use the scheduled breaks to recharge between high-focus activities"
+    ],
+    "delegation_opportunities": [],
+    "time_saving_tips": [
+      "Consider automating the briefing generation process to prevent duplicate entries",
+      "Use the email processing block (15:30-17:00) to batch similar administrative tasks"
+    ],
+    "weekly_goals": [
+      "Complete the task tracking system setup with an active task",
+      "Establish a streamlined process for Gold Tier Morning Briefing generation",
+      "Review and optimize the daily schedule for better energy management"
+    ],
+    "avoid_these": [
+      "Don't start deep work on the task tracking system without first setting an active task",
+      "Avoid checking emails during protected deep work blocks",
+      "Don't skip scheduled breaks as they're essential for maintaining focus"
+    ],
+    "energy_management": "Schedule high-focus tasks (briefing generation and task tracking system setup) during high-energy morning hours. Use medium-energy periods for continued deep work, and reserve low-energy afternoon hours for administrative tasks like email processing. Take scheduled breaks to prevent energy depletion and maintain productivity throughout the day.",
+    "generated_at": "2026-02-28T15:37:33.956322"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "generated_at": "2026-02-28T15:34:22.637351",
+  "tasks_analyzed": 3,
+  "eisenhower_matrix": {
+    "urgent_important": [],
+    "important_not_urgent": [
+      {
+        "task": "Build Gold Tier System",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "This is a long-running task that requires focused work and multiple iterations to complete",
+        "suggested_action": "Schedule dedicated time blocks"
+      }
+    ],
+    "urgent_not_important": [],
+    "not_urgent_not_important": [
+      {
+        "task": "Gold Tier Morning Briefing",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Automated briefing generation that provides status updates but doesn't require immediate action",
+        "suggested_action": "Consider eliminating or automating fully"
+      },
+      {
+        "task": "Gold Tier Morning Briefing",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Automated briefing generation that provides status updates but doesn't require immediate action",
+        "suggested_action": "Consider eliminating or automating fully"
+      }
+    ],
+    "summary": {
+      "total_tasks": 3,
+      "do_first_count": 0,
+      "schedule_count": 1,
+      "delegate_count": 0,
+      "eliminate_count": 2
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-10:30",
+        "task": "Build Gold Tier System",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:30-11:00",
+        "task": "Break",
+        "category": "break",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "11:00-12:30",
+        "task": "Build Gold Tier System",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:30-13:30",
+        "task": "Lunch Break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:30-15:00",
+        "task": "Build Gold Tier System",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "15:00-15:30",
+        "task": "Break",
+        "category": "break",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "15:30-17:00",
+        "task": "Build Gold Tier System",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      }
+    ],
+    "deep_work_blocks": [
+      "09:00-10:30",
+      "11:00-12:30",
+      "13:30-15:00",
+      "15:30-17:00"
+    ],
+    "admin_blocks": [],
+    "breaks": [
+      "10:30-11:00",
+      "12:30-13:30",
+      "15:00-15:30"
+    ],
+    "protected_time": "Four dedicated deep work blocks (9:00-10:30, 11:00-12:30, 13:30-15:00, 15:30-17:00) for building the Gold Tier System",
+    "flexibility_buffer": "15:00-15:30 break slot can be used for unexpected tasks if needed"
+  },
+  "bottlenecks": {
+    "bottlenecks": [
+      {
+        "type": "time",
+        "description": "Long-running task 'Build Gold Tier System' has no dedicated time blocks scheduled",
+        "blocking_tasks": [],
+        "resolution": "Schedule dedicated time blocks for focused work on this important task"
+      }
+    ],
+    "overloaded_areas": [],
+    "resource_conflicts": [],
+    "recommendations": [
+      "Schedule dedicated time blocks for 'Build Gold Tier System' task",
+      "Consider automating or eliminating Gold Tier Morning Briefing generation to reduce noise",
+      "Implement Eisenhower Matrix analysis regularly to prioritize tasks effectively"
+    ],
+    "risk_level": "low"
+  },
+  "recommendations": {
+    "priority_actions": [
+      {
+        "action": "Schedule four dedicated deep work blocks (9:00-10:30, 11:00-12:30, 13:30-15:00, 15:30-17:00) for 'Build Gold Tier System'",
+        "impact": "high",
+        "effort": "high",
+        "deadline": "Today"
+      },
+      {
+        "action": "Automate or eliminate Gold Tier Morning Briefing generation",
+        "impact": "medium",
+        "effort": "medium",
+        "deadline": "This week"
+      }
+    ],
+    "focus_recommendations": [
+      "Protect the four scheduled deep work blocks from interruptions",
+      "Use Pomodoro technique (25 min work, 5 min break) within deep work blocks",
+      "Turn off notifications during deep work sessions"
+    ],
+    "delegation_opportunities": [],
+    "time_saving_tips": [
+      "Batch similar tasks together to reduce context switching",
+      "Use automation tools for repetitive tasks like briefing generation",
+      "Implement a 'no meeting' policy during deep work blocks"
+    ],
+    "weekly_goals": [
+      "Complete at least one major milestone for the Gold Tier System",
+      "Establish automated briefing system or eliminate the task entirely",
+      "Review and update Eisenhower Matrix weekly"
+    ],
+    "avoid_these": [
+      "Checking email during deep work blocks",
+      "Scheduling meetings during protected deep work time",
+      "Starting new tasks before completing the Gold Tier System work"
+    ],
+    "energy_management": "Schedule most demanding cognitive work during high-energy morning hours (9:00-12:30), take regular breaks to maintain focus, and use afternoon hours for less intensive work or review.",
+    "generated_at": "2026-02-28T15:34:22.637331"
+  }
+}

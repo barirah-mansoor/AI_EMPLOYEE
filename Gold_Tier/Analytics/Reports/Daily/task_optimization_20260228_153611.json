@@ -1,0 +1,193 @@
+{
+  "generated_at": "2026-02-28T15:36:10.908486",
+  "tasks_analyzed": 3,
+  "eisenhower_matrix": {
+    "urgent_important": [
+      {
+        "task": "Gold Tier Morning Briefing - Email Intelligence Summary",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Provides actionable intelligence on 51 emails requiring attention and task optimization recommendations",
+        "suggested_action": "Do first"
+      },
+      {
+        "task": "Gold Tier Morning Briefing - Email Intelligence Summary",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Provides daily task optimization and work prioritization guidance",
+        "suggested_action": "Do first"
+      }
+    ],
+    "important_not_urgent": [
+      {
+        "task": "Current Task - Build Gold Tier System",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "Long-running system development work that drives core functionality",
+        "suggested_action": "Schedule time"
+      }
+    ],
+    "urgent_not_important": [],
+    "not_urgent_not_important": [],
+    "summary": {
+      "total_tasks": 3,
+      "do_first_count": 2,
+      "schedule_count": 1,
+      "delegate_count": 0,
+      "eliminate_count": 0
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-09:30",
+        "task": "Gold Tier Morning Briefing - Email Intelligence Summary (gold_briefing_20260224.md)",
+        "category": "meetings",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "09:30-10:00",
+        "task": "Gold Tier Morning Briefing - Email Intelligence Summary (gold_briefing_20260228.md)",
+        "category": "meetings",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:00-10:30",
+        "task": "Review and prioritize tasks based on briefing insights",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:30-12:00",
+        "task": "Current Task - Build Gold Tier System",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:00-13:00",
+        "task": "Lunch Break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:00-14:30",
+        "task": "Current Task - Build Gold Tier System",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "14:30-15:00",
+        "task": "Email processing and task management",
+        "category": "admin",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "15:00-15:30",
+        "task": "Administrative tasks and planning",
+        "category": "admin",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "15:30-16:00",
+        "task": "Review and wrap up day",
+        "category": "admin",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "16:00-16:30",
+        "task": "Flexibility buffer for unexpected tasks",
+        "category": "admin",
+        "energy_level": "low",
+        "focus_required": false
+      }
+    ],
+    "deep_work_blocks": [
+      "10:30-12:00",
+      "13:00-14:30"
+    ],
+    "admin_blocks": [
+      "09:30-10:00",
+      "10:00-10:30",
+      "14:30-15:00",
+      "15:00-15:30",
+      "15:30-16:00",
+      "16:00-16:30"
+    ],
+    "breaks": [
+      "12:00-13:00"
+    ],
+    "protected_time": "09:00-12:00 and 13:00-14:30 are protected for deep work on the Gold Tier System",
+    "flexibility_buffer": "16:00-16:30 is reserved for unexpected tasks or overflow work"
+  },
+  "bottlenecks": {
+    "bottlenecks": [
+      {
+        "type": "information",
+        "description": "Gold Tier Morning Briefings show 51 emails requiring attention but no processing has occurred yet",
+        "blocking_tasks": [
+          "Gold Tier Morning Briefing - Email Intelligence Summary"
+        ],
+        "resolution": "Process the 51 emails requiring attention immediately to unblock task prioritization"
+      }
+    ],
+    "overloaded_areas": [],
+    "resource_conflicts": [],
+    "recommendations": [
+      "Process the 51 emails requiring attention from the 2026-02-24 briefing immediately",
+      "Complete the current task 'Build Gold Tier System' to advance core functionality",
+      "Use the Eisenhower Matrix recommendations to prioritize work effectively"
+    ],
+    "risk_level": "medium"
+  },
+  "recommendations": {
+    "priority_actions": [
+      {
+        "action": "Process the 51 emails requiring attention from the Gold Tier Morning Briefing (2026-02-24)",
+        "impact": "high",
+        "effort": "medium",
+        "deadline": "09:30 today"
+      },
+      {
+        "action": "Complete the Gold Tier Morning Briefing review and task prioritization (2026-02-28)",
+        "impact": "high",
+        "effort": "low",
+        "deadline": "10:00 today"
+      },
+      {
+        "action": "Focus on deep work for the 'Build Gold Tier System' task during protected time blocks",
+        "impact": "high",
+        "effort": "high",
+        "deadline": "ongoing this week"
+      }
+    ],
+    "focus_recommendations": [
+      "Maintain focus during protected deep work blocks (09:00-12:00 and 13:00-14:30)",
+      "Use the Eisenhower Matrix to guide daily task prioritization",
+      "Complete email processing before moving to other tasks"
+    ],
+    "delegation_opportunities": [],
+    "time_saving_tips": [
+      "Use the Gold Tier Morning Briefings to identify and prioritize tasks efficiently",
+      "Batch process emails during designated admin blocks rather than throughout the day",
+      "Leverage the briefing insights to avoid redundant work and focus on high-impact tasks"
+    ],
+    "weekly_goals": [
+      "Complete the 'Build Gold Tier System' core functionality",
+      "Establish a consistent routine using the Gold Tier Morning Briefings for daily planning",
+      "Process all outstanding emails and maintain inbox zero"
+    ],
+    "avoid_these": [
+      "Multitasking during deep work blocks",
+      "Checking emails outside of designated admin blocks",
+      "Postponing the processing of high-priority emails identified in briefings"
+    ],
+    "energy_management": "Schedule high-focus tasks during peak energy hours (09:00-12:00), use medium-energy periods for deep work (13:00-14:30), and reserve low-energy times for administrative tasks and breaks.",
+    "generated_at": "2026-02-28T15:36:10.908462"
+  }
+}

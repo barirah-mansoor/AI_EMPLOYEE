@@ -1,0 +1,240 @@
+{
+  "generated_at": "2026-03-02T04:13:31.445406",
+  "tasks_analyzed": 5,
+  "eisenhower_matrix": {
+    "urgent_important": [
+      {
+        "task": "Complete high-priority tasks from Gold Tier briefings",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Briefings indicate tasks requiring attention and optimization recommendations",
+        "suggested_action": "Do first"
+      },
+      {
+        "task": "Complete high-priority tasks from Gold Tier briefings",
+        "original_file": "gold_briefing_20260301.md",
+        "reason": "Briefings indicate tasks requiring attention and optimization recommendations",
+        "suggested_action": "Do first"
+      }
+    ],
+    "important_not_urgent": [
+      {
+        "task": "Review urgent emails",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Briefing processed 51 emails requiring attention",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Review urgent emails",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Briefing processed 0 emails but recommends reviewing urgent emails",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Review urgent emails",
+        "original_file": "gold_briefing_20260301.md",
+        "reason": "Briefing processed 0 emails but recommends reviewing urgent emails",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Prepare for March 1, 2026 meeting",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Meeting scheduled with no agenda, requires preparation",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Build Gold Tier System",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "Long-running task in progress with multiple iterations",
+        "suggested_action": "Schedule time"
+      }
+    ],
+    "urgent_not_important": [],
+    "not_urgent_not_important": [
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Recommendation but no specific urgent action required",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Recommendation but no specific urgent action required",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260301.md",
+        "reason": "Recommendation but no specific urgent action required",
+        "suggested_action": "Consider eliminating"
+      }
+    ],
+    "summary": {
+      "total_tasks": 9,
+      "do_first_count": 2,
+      "schedule_count": 5,
+      "delegate_count": 0,
+      "eliminate_count": 2
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-10:30",
+        "task": "Complete high-priority tasks from Gold Tier briefings",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:30-11:00",
+        "task": "Review urgent emails",
+        "category": "admin",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "11:00-12:00",
+        "task": "Prepare for March 1, 2026 meeting",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:00-13:00",
+        "task": "Lunch break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:00-14:30",
+        "task": "Complete high-priority tasks from Gold Tier briefings",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "14:30-15:00",
+        "task": "Review urgent emails",
+        "category": "admin",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "15:00-16:30",
+        "task": "Build Gold Tier System",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "16:30-17:00",
+        "task": "Review urgent emails",
+        "category": "admin",
+        "energy_level": "low",
+        "focus_required": true
+      }
+    ],
+    "deep_work_blocks": [
+      "09:00-10:30",
+      "11:00-12:00",
+      "13:00-14:30",
+      "15:00-16:30"
+    ],
+    "admin_blocks": [
+      "10:30-11:00",
+      "14:30-15:00",
+      "16:30-17:00"
+    ],
+    "breaks": [
+      "12:00-13:00"
+    ],
+    "protected_time": "Deep work blocks from 09:00-10:30, 11:00-12:00, 13:00-14:30, and 15:00-16:30 are protected for important, high-focus tasks.",
+    "flexibility_buffer": "15:00-16:30 block has some flexibility for unexpected tasks"
+  },
+  "bottlenecks": {
+    "bottlenecks": [
+      {
+        "type": "time",
+        "description": "Multiple Gold Tier briefings recommend completing high-priority tasks, but no specific tasks are identified",
+        "blocking_tasks": [
+          "Complete high-priority tasks from Gold Tier briefings"
+        ],
+        "resolution": "Review briefing files to identify specific high-priority tasks before execution"
+      },
+      {
+        "type": "information",
+        "description": "Meeting preparation blocked by lack of agenda and attendee information",
+        "blocking_tasks": [
+          "Prepare for March 1, 2026 meeting"
+        ],
+        "resolution": "Contact meeting organizer to obtain agenda and attendee list"
+      }
+    ],
+    "overloaded_areas": [
+      "Task management",
+      "Email processing"
+    ],
+    "resource_conflicts": [
+      "The 'Build Gold Tier System' task appears to be in progress but lacks clear iteration tracking and completion criteria"
+    ],
+    "recommendations": [
+      "Consolidate Gold Tier briefing recommendations to identify specific actionable tasks",
+      "Establish clear completion criteria for long-running tasks like 'Build Gold Tier System'",
+      "Create a system to track meeting preparation requirements separately from general task lists"
+    ],
+    "risk_level": "medium"
+  },
+  "recommendations": {
+    "priority_actions": [
+      {
+        "action": "Review Gold Tier briefing files to identify specific high-priority tasks",
+        "impact": "high",
+        "effort": "medium",
+        "deadline": "Immediately"
+      },
+      {
+        "action": "Contact meeting organizer to obtain agenda and attendee list for March 1 meeting",
+        "impact": "high",
+        "effort": "low",
+        "deadline": "Within next 2 hours"
+      },
+      {
+        "action": "Complete high-priority tasks from Gold Tier briefings during 09:00-10:30 block",
+        "impact": "high",
+        "effort": "high",
+        "deadline": "09:00-10:30 today"
+      },
+      {
+        "action": "Establish clear completion criteria for 'Build Gold Tier System' task",
+        "impact": "medium",
+        "effort": "low",
+        "deadline": "End of day"
+      }
+    ],
+    "focus_recommendations": [
+      "Protect deep work blocks from 09:00-10:30, 11:00-12:00, 13:00-14:30, and 15:00-16:30 for high-focus tasks",
+      "Batch email processing into three dedicated blocks (10:30-11:00, 14:30-15:00, 16:30-17:00) rather than constant checking",
+      "Use the 15:00-16:30 block as a flexibility buffer for unexpected urgent tasks"
+    ],
+    "delegation_opportunities": [],
+    "time_saving_tips": [
+      "Consolidate Gold Tier briefing recommendations to avoid redundant task identification",
+      "Create a system to track meeting preparation requirements separately from general task lists",
+      "Establish a 'waiting for' list for items like meeting agendas that are blocking other tasks"
+    ],
+    "weekly_goals": [
+      "Complete all high-priority tasks from Gold Tier briefings",
+      "Prepare thoroughly for March 1 meeting with clear agenda and talking points",
+      "Make measurable progress on Build Gold Tier System with defined iteration completion"
+    ],
+    "avoid_these": [
+      "Starting the day with email processing instead of high-priority tasks",
+      "Allowing meeting preparation to remain blocked without following up for agenda",
+      "Working on 'Build Gold Tier System' without clear iteration tracking or completion criteria"
+    ],
+    "energy_management": "Schedule high-focus deep work tasks during morning hours (09:00-12:00) when energy is highest. Use the lunch break (12:00-13:00) to recharge. Schedule administrative tasks like email processing during medium-energy periods (10:30-11:00, 14:30-15:00, 16:30-17:00). Reserve the final deep work block (15:00-16:30) for important but slightly less demanding tasks, using it as a flexibility buffer if needed.",
+    "generated_at": "2026-03-02T04:13:31.445376"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "generated_at": "2026-03-02T04:16:35.001863",
+  "tasks_analyzed": 5,
+  "eisenhower_matrix": {
+    "urgent_important": [
+      {
+        "task": "Review urgent emails from briefings",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Briefing indicates 51 emails requiring attention",
+        "suggested_action": "Do first"
+      },
+      {
+        "task": "Review urgent emails from briefings",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Briefing indicates 0 emails requiring attention",
+        "suggested_action": "Do first"
+      },
+      {
+        "task": "Review urgent emails from briefings",
+        "original_file": "gold_briefing_20260301.md",
+        "reason": "Briefing indicates 0 emails requiring attention",
+        "suggested_action": "Do first"
+      }
+    ],
+    "important_not_urgent": [
+      {
+        "task": "Complete high-priority tasks from briefings",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Briefing recommends completing high-priority tasks",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Complete high-priority tasks from briefings",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Briefing recommends completing high-priority tasks",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Complete high-priority tasks from briefings",
+        "original_file": "gold_briefing_20260301.md",
+        "reason": "Briefing recommends completing high-priority tasks",
+        "suggested_action": "Schedule time"
+      }
+    ],
+    "urgent_not_important": [
+      {
+        "task": "Prepare for meeting",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Meeting is scheduled for immediate time but content is general",
+        "suggested_action": "Delegate or minimize"
+      }
+    ],
+    "not_urgent_not_important": [
+      {
+        "task": "Track long-running tasks",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "File is for tracking but no active task is set",
+        "suggested_action": "Consider eliminating"
+      }
+    ],
+    "summary": {
+      "total_tasks": 8,
+      "do_first_count": 3,
+      "schedule_count": 3,
+      "delegate_count": 1,
+      "eliminate_count": 1
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-09:15",
+        "task": "Review urgent emails from briefings (gold_briefing_20260224.md)",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "09:15-09:30",
+        "task": "Review urgent emails from briefings (gold_briefing_20260228.md)",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "09:30-09:45",
+        "task": "Review urgent emails from briefings (gold_briefing_20260301.md)",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "09:45-10:30",
+        "task": "Complete high-priority tasks from briefings",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:30-11:00",
+        "task": "Break",
+        "category": "break",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "11:00-12:00",
+        "task": "Complete high-priority tasks from briefings",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:00-13:00",
+        "task": "Lunch break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:00-14:00",
+        "task": "Complete high-priority tasks from briefings",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "14:00-15:00",
+        "task": "Prepare for meeting",
+        "category": "admin",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "15:00-15:30",
+        "task": "Break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "15:30-17:00",
+        "task": "Complete high-priority tasks from briefings",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      }
+    ],
+    "deep_work_blocks": [
+      "09:45-10:30",
+      "11:00-12:00",
+      "13:00-14:00",
+      "15:30-17:00"
+    ],
+    "admin_blocks": [
+      "09:00-09:45",
+      "14:00-15:00"
+    ],
+    "breaks": [
+      "10:30-11:00",
+      "12:00-13:00",
+      "15:00-15:30"
+    ],
+    "protected_time": "09:45-12:00 and 13:00-17:00 are protected for deep work on high-priority tasks",
+    "flexibility_buffer": "15:00-15:30 break can be extended if urgent tasks arise"
+  },
+  "bottlenecks": {
+    "bottlenecks": [],
+    "recommendations": [],
+    "risk_level": "unknown"
+  },
+  "recommendations": {
+    "priority_actions": [
+      {
+        "action": "Review urgent emails from briefings (gold_briefing_20260224.md, gold_briefing_20260228.md, gold_briefing_20260301.md)",
+        "impact": "high",
+        "effort": "low",
+        "deadline": "09:00-09:45 today"
+      },
+      {
+        "action": "Complete high-priority tasks from briefings",
+        "impact": "high",
+        "effort": "high",
+        "deadline": "09:45-12:00 and 13:00-17:00 today"
+      }
+    ],
+    "focus_recommendations": [
+      "Protect deep work blocks (09:45-12:00 and 13:00-17:00) from interruptions",
+      "Use 15-minute focused sprints for email review tasks",
+      "Batch similar tasks together (all email reviews in one block)"
+    ],
+    "delegation_opportunities": [
+      "Consider delegating meeting preparation to an assistant if available"
+    ],
+    "time_saving_tips": [
+      "Eliminate tracking of long-running tasks in CURRENT_TASK.md if not actively used",
+      "Combine email review tasks from different days into a single batch",
+      "Use the 15:00-15:30 break as a flexibility buffer for unexpected urgent tasks"
+    ],
+    "weekly_goals": [
+      "Complete all high-priority tasks from the three briefing documents",
+      "Establish a consistent email review routine for future briefings"
+    ],
+    "avoid_these": [
+      "Don't let meeting preparation interrupt deep work blocks",
+      "Avoid checking emails outside of scheduled review times"
+    ],
+    "energy_management": "Schedule high-focus tasks (email review, high-priority work) during high-energy morning hours (09:00-12:00), use lunch break for energy recovery, and tackle remaining deep work in the afternoon when energy is medium (13:00-17:00)",
+    "generated_at": "2026-03-02T04:16:35.001835"
+  }
+}

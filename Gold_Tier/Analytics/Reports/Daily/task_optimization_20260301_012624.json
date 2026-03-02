@@ -1,0 +1,220 @@
+{
+  "generated_at": "2026-03-01T01:26:24.586691",
+  "tasks_analyzed": 3,
+  "eisenhower_matrix": {
+    "urgent_important": [
+      {
+        "task": "Review urgent emails from email intelligence summary",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Email intelligence summary indicates 51 emails requiring attention, which is time-sensitive and critical for communication",
+        "suggested_action": "Do first"
+      },
+      {
+        "task": "Review urgent emails from email intelligence summary",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Email intelligence summary indicates 0 emails requiring attention, but the task of reviewing emails is still time-sensitive and important for communication",
+        "suggested_action": "Do first"
+      }
+    ],
+    "important_not_urgent": [
+      {
+        "task": "Complete high-priority tasks first",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Task optimization analysis has been performed and recommendations generated, making this important for productivity",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Complete high-priority tasks first",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Task optimization analysis has been performed and recommendations generated, making this important for productivity",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Deep work is essential for high-value work and long-term productivity",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Deep work is essential for high-value work and long-term productivity",
+        "suggested_action": "Schedule time"
+      }
+    ],
+    "urgent_not_important": [],
+    "not_urgent_not_important": [],
+    "summary": {
+      "total_tasks": 6,
+      "do_first_count": 2,
+      "schedule_count": 4,
+      "delegate_count": 0,
+      "eliminate_count": 0
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-09:30",
+        "task": "Review urgent emails from email intelligence summary",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "09:30-10:30",
+        "task": "Complete high-priority tasks first",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:30-11:00",
+        "task": "Break",
+        "category": "break",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "11:00-12:00",
+        "task": "Protect deep work time blocks",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:00-13:00",
+        "task": "Lunch break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:00-14:30",
+        "task": "Complete high-priority tasks first",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "14:30-15:00",
+        "task": "Break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "15:00-16:30",
+        "task": "Protect deep work time blocks",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "16:30-17:00",
+        "task": "Review urgent emails from email intelligence summary",
+        "category": "admin",
+        "energy_level": "low",
+        "focus_required": true
+      }
+    ],
+    "deep_work_blocks": [
+      "09:30-10:30",
+      "11:00-12:00",
+      "13:00-14:30",
+      "15:00-16:30"
+    ],
+    "admin_blocks": [
+      "09:00-09:30",
+      "16:30-17:00"
+    ],
+    "breaks": [
+      "10:30-11:00",
+      "12:00-13:00",
+      "14:30-15:00"
+    ],
+    "protected_time": "Four deep work blocks (9:30-10:30, 11:00-12:00, 13:00-14:30, 15:00-16:30) are protected for high-value work",
+    "flexibility_buffer": "30 minutes (14:30-15:00) reserved for unexpected tasks"
+  },
+  "bottlenecks": {
+    "bottlenecks": [
+      {
+        "type": "information",
+        "description": "Current task tracking is in idle state with no active task",
+        "blocking_tasks": [
+          "Build Gold Tier System"
+        ],
+        "resolution": "Update CURRENT_TASK.md with active task status and start working on the Gold Tier System build"
+      },
+      {
+        "type": "time",
+        "description": "Multiple task optimization recommendations without clear prioritization",
+        "blocking_tasks": [
+          "Complete high-priority tasks",
+          "Protect deep work time blocks"
+        ],
+        "resolution": "Implement Eisenhower matrix prioritization and schedule specific time blocks for each category"
+      }
+    ],
+    "overloaded_areas": [
+      "Email processing",
+      "Task management coordination"
+    ],
+    "resource_conflicts": [
+      "No dedicated time allocation for deep work vs. task execution",
+      "Unclear resource assignment for email processing vs. task completion"
+    ],
+    "recommendations": [
+      "Activate the Ralph Wiggum pattern by setting an active task to prevent workflow interruptions",
+      "Implement time-blocking for urgent vs. important tasks based on Eisenhower analysis",
+      "Create a daily task queue to process email intelligence summary findings",
+      "Set MAX_ITERATIONS=10 environment variable to prevent infinite loops in task execution"
+    ],
+    "risk_level": "medium"
+  },
+  "recommendations": {
+    "priority_actions": [
+      {
+        "action": "Review urgent emails from email intelligence summary at 9:00 AM and 4:30 PM",
+        "impact": "high",
+        "effort": "low",
+        "deadline": "daily"
+      },
+      {
+        "action": "Complete high-priority tasks during scheduled deep work blocks (9:30-10:30 AM, 11:00 AM-12:00 PM, 1:00-2:30 PM, 3:00-4:30 PM)",
+        "impact": "high",
+        "effort": "high",
+        "deadline": "daily"
+      },
+      {
+        "action": "Update CURRENT_TASK.md with active task status to prevent workflow interruptions",
+        "impact": "medium",
+        "effort": "low",
+        "deadline": "immediately"
+      }
+    ],
+    "focus_recommendations": [
+      "Protect deep work time blocks by minimizing interruptions during scheduled sessions",
+      "Use the Eisenhower Matrix to prioritize tasks between urgent/important and important/not urgent",
+      "Implement the Ralph Wiggum pattern by setting an active task to maintain workflow momentum"
+    ],
+    "delegation_opportunities": [],
+    "time_saving_tips": [
+      "Batch email processing into two dedicated time blocks (9:00 AM and 4:30 PM) rather than checking continuously",
+      "Use the 30-minute flexibility buffer (2:30-3:00 PM) for unexpected tasks instead of disrupting deep work blocks",
+      "Set MAX_ITERATIONS=10 environment variable to prevent infinite loops in task execution"
+    ],
+    "weekly_goals": [
+      "Build the Gold Tier System as the primary active task",
+      "Complete all high-priority tasks identified in the task optimization analysis",
+      "Maintain consistent deep work blocks throughout the week"
+    ],
+    "avoid_these": [
+      "Starting new tasks without updating CURRENT_TASK.md to maintain active workflow",
+      "Allowing email processing to interrupt deep work sessions",
+      "Working on low-priority tasks during high-energy periods"
+    ],
+    "energy_management": "Schedule high-focus tasks during peak energy periods (morning deep work blocks), use medium-energy periods for administrative tasks, and reserve low-energy periods for breaks and email processing.",
+    "generated_at": "2026-03-01T01:26:24.586604"
+  }
+}

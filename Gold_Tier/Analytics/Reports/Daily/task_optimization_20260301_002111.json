@@ -1,0 +1,144 @@
+{
+  "generated_at": "2026-03-01T00:21:11.092444",
+  "tasks_analyzed": 3,
+  "eisenhower_matrix": {
+    "urgent_important": [
+      {
+        "task": "Review urgent emails from Gold Tier briefing",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "The briefing processed 51 emails requiring attention, indicating urgent communication needs",
+        "suggested_action": "Do first"
+      }
+    ],
+    "important_not_urgent": [
+      {
+        "task": "Complete high-priority tasks from Gold Tier briefing",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "The briefing specifically recommends completing high-priority tasks, which are important for long-term goals",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Build Gold Tier System",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "This is a long-running project that contributes to system development and improvement",
+        "suggested_action": "Schedule time"
+      }
+    ],
+    "urgent_not_important": [],
+    "not_urgent_not_important": [
+      {
+        "task": "Review non-urgent emails",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "The briefing processed 0 emails requiring attention, suggesting routine email maintenance",
+        "suggested_action": "Consider eliminating"
+      }
+    ],
+    "summary": {
+      "total_tasks": 4,
+      "do_first_count": 1,
+      "schedule_count": 2,
+      "delegate_count": 0,
+      "eliminate_count": 1
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-10:30",
+        "task": "Review urgent emails from Gold Tier briefing",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:30-12:00",
+        "task": "Complete high-priority tasks from Gold Tier briefing",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:00-13:00",
+        "task": "Lunch break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:00-15:00",
+        "task": "Build Gold Tier System",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "15:00-16:00",
+        "task": "Admin tasks and email processing",
+        "category": "admin",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "16:00-17:00",
+        "task": "Flexibility buffer and planning",
+        "category": "admin",
+        "energy_level": "low",
+        "focus_required": false
+      }
+    ],
+    "deep_work_blocks": [
+      "09:00-10:30",
+      "10:30-12:00",
+      "13:00-15:00"
+    ],
+    "admin_blocks": [
+      "09:00-10:30",
+      "15:00-16:00",
+      "16:00-17:00"
+    ],
+    "breaks": [
+      "12:00-13:00"
+    ],
+    "protected_time": "09:00-15:00 - Three deep work blocks for urgent/important tasks and system building",
+    "flexibility_buffer": "16:00-17:00 - One hour for unexpected tasks or overflow work"
+  },
+  "bottlenecks": {
+    "bottlenecks": [
+      {
+        "type": "information",
+        "description": "Gold Tier System build task is marked as idle with no active work, creating a bottleneck in system development",
+        "blocking_tasks": [
+          "Build Gold Tier System"
+        ],
+        "resolution": "Update CURRENT_TASK.md to status: in_progress and begin active work on the system build"
+      },
+      {
+        "type": "time",
+        "description": "Email processing shows 51 emails requiring attention on Feb 24 but 0 on Feb 28, indicating inconsistent email management workflow",
+        "blocking_tasks": [
+          "Review urgent emails",
+          "Complete high-priority tasks"
+        ],
+        "resolution": "Establish consistent email processing schedule and prioritize urgent communications immediately"
+      }
+    ],
+    "overloaded_areas": [
+      "email management",
+      "task prioritization"
+    ],
+    "resource_conflicts": [
+      "Gold Tier briefing system is generating recommendations but not actively tracking task completion status"
+    ],
+    "recommendations": [
+      "Activate the Gold Tier System build task immediately by updating status to in_progress",
+      "Implement a daily email triage process to prevent accumulation of urgent communications",
+      "Create a task tracking dashboard to monitor completion of Eisenhower Matrix recommendations"
+    ],
+    "risk_level": "medium"
+  },
+  "recommendations": {
+    "priority_actions": [],
+    "error": "Failed to generate recommendations",
+    "generated_at": "2026-03-01T00:21:11.092409"
+  }
+}

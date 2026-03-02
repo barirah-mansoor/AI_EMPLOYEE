@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-02-28T03:57:05.227483",
+  "tasks_analyzed": 3,
+  "eisenhower_matrix": {
+    "urgent_important": [
+      {
+        "task": "Process emails requiring attention",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Email Intelligence Summary indicates 51 emails requiring attention",
+        "suggested_action": "Do first / immediate action"
+      }
+    ],
+    "important_not_urgent": [
+      {
+        "task": "Complete high-priority tasks",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Task Optimization analysis recommends completing high-priority tasks",
+        "suggested_action": "Schedule time"
+      }
+    ],
+    "urgent_not_important": [],
+    "not_urgent_not_important": [
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Recommended action but not time-sensitive",
+        "suggested_action": "Consider eliminating"
+      }
+    ],
+    "summary": {
+      "total_tasks": 3,
+      "do_first_count": 1,
+      "schedule_count": 1,
+      "delegate_count": 0,
+      "eliminate_count": 1
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-09:30",
+        "task": "Process emails requiring attention",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "09:30-11:00",
+        "task": "Complete high-priority tasks",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "11:00-11:15",
+        "task": "Morning break",
+        "category": "break",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "11:15-12:30",
+        "task": "Continue high-priority tasks",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:30-13:30",
+        "task": "Lunch break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:30-15:00",
+        "task": "Complete high-priority tasks",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "15:00-15:15",
+        "task": "Afternoon break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "15:15-16:30",
+        "task": "Complete high-priority tasks",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "16:30-17:00",
+        "task": "Email follow-up and planning",
+        "category": "admin",
+        "energy_level": "low",
+        "focus_required": false
+      }
+    ],
+    "deep_work_blocks": [
+      "09:30-11:00",
+      "11:15-12:30",
+      "13:30-15:00",
+      "15:15-16:30"
+    ],
+    "admin_blocks": [
+      "09:00-09:30",
+      "16:30-17:00"
+    ],
+    "breaks": [
+      "11:00-11:15",
+      "12:30-13:30",
+      "15:00-15:15"
+    ],
+    "protected_time": "Four deep work blocks totaling 5 hours protected for high-priority tasks",
+    "flexibility_buffer": "30 minutes in the afternoon for unexpected tasks or overflow"
+  },
+  "bottlenecks": {
+    "bottlenecks": [],
+    "recommendations": [],
+    "risk_level": "unknown"
+  },
+  "recommendations": {
+    "priority_actions": [],
+    "error": "Failed to generate recommendations",
+    "generated_at": "2026-02-28T03:57:05.227466"
+  }
+}

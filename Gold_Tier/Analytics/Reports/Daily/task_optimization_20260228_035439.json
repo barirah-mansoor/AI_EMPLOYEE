@@ -1,0 +1,217 @@
+{
+  "generated_at": "2026-02-28T03:54:39.447444",
+  "tasks_analyzed": 3,
+  "eisenhower_matrix": {
+    "urgent_important": [
+      {
+        "task": "Review urgent emails",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Email intelligence summary indicates emails requiring attention",
+        "suggested_action": "Do first"
+      },
+      {
+        "task": "Complete high-priority tasks",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Task optimization identified high-priority tasks needing completion",
+        "suggested_action": "Do first"
+      }
+    ],
+    "important_not_urgent": [
+      {
+        "task": "Track long-running tasks",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "Template provides framework for managing multi-step projects",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Recommended for sustained productivity",
+        "suggested_action": "Schedule time"
+      }
+    ],
+    "urgent_not_important": [],
+    "not_urgent_not_important": [
+      {
+        "task": "Generate email intelligence summary",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "No emails requiring attention, automated generation",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Generate task optimization recommendations",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Automated process with no actionable insights",
+        "suggested_action": "Consider eliminating"
+      }
+    ],
+    "summary": {
+      "total_tasks": 6,
+      "do_first_count": 2,
+      "schedule_count": 2,
+      "delegate_count": 0,
+      "eliminate_count": 2
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-09:15",
+        "task": "Review urgent emails",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "09:15-10:30",
+        "task": "Complete high-priority tasks",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:30-11:00",
+        "task": "Morning break",
+        "category": "break",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "11:00-12:00",
+        "task": "Track long-running tasks",
+        "category": "admin",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:00-13:00",
+        "task": "Lunch break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:00-15:00",
+        "task": "Protected deep work block",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "15:00-15:30",
+        "task": "Afternoon break",
+        "category": "break",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "15:30-16:30",
+        "task": "Complete remaining high-priority tasks",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "16:30-17:00",
+        "task": "Review day and plan tomorrow",
+        "category": "admin",
+        "energy_level": "low",
+        "focus_required": true
+      }
+    ],
+    "deep_work_blocks": [
+      "09:15-10:30",
+      "13:00-15:00",
+      "15:30-16:30"
+    ],
+    "admin_blocks": [
+      "09:00-09:15",
+      "11:00-12:00",
+      "16:30-17:00"
+    ],
+    "breaks": [
+      "10:30-11:00",
+      "12:00-13:00",
+      "15:00-15:30"
+    ],
+    "protected_time": "13:00-15:00 blocked for uninterrupted deep work on important tasks",
+    "flexibility_buffer": "15:30-16:30 reserved for unexpected urgent tasks or overflow work"
+  },
+  "bottlenecks": {
+    "bottlenecks": [
+      {
+        "type": "information",
+        "description": "Task tracking system is in idle state with no active task",
+        "blocking_tasks": [],
+        "resolution": "Update CURRENT_TASK.md with active task and status"
+      },
+      {
+        "type": "time",
+        "description": "Deep work time blocks not scheduled or protected",
+        "blocking_tasks": [
+          "Protect deep work time blocks"
+        ],
+        "resolution": "Schedule dedicated deep work blocks in calendar"
+      }
+    ],
+    "overloaded_areas": [],
+    "resource_conflicts": [],
+    "recommendations": [
+      "Activate task tracking by updating CURRENT_TASK.md",
+      "Schedule deep work blocks to protect focused time",
+      "Review email intelligence summary to prioritize urgent communications",
+      "Eliminate automated briefings that generate no actionable insights"
+    ],
+    "risk_level": "low"
+  },
+  "recommendations": {
+    "priority_actions": [
+      {
+        "action": "Review urgent emails during 09:00-09:15 block",
+        "impact": "high",
+        "effort": "low",
+        "deadline": "today 09:00"
+      },
+      {
+        "action": "Complete high-priority tasks during 09:15-10:30 deep work block",
+        "impact": "high",
+        "effort": "high",
+        "deadline": "today 09:15"
+      },
+      {
+        "action": "Update CURRENT_TASK.md with active task and status",
+        "impact": "medium",
+        "effort": "low",
+        "deadline": "today 11:00"
+      },
+      {
+        "action": "Schedule protected deep work blocks in calendar",
+        "impact": "high",
+        "effort": "low",
+        "deadline": "today 16:30"
+      }
+    ],
+    "focus_recommendations": [
+      "Protect 13:00-15:00 block for uninterrupted deep work",
+      "Use 09:15-10:30 for your most demanding cognitive tasks",
+      "Avoid checking emails outside of scheduled review times"
+    ],
+    "delegation_opportunities": [],
+    "time_saving_tips": [
+      "Eliminate automated email intelligence summaries that generate no actionable insights",
+      "Stop generating task optimization recommendations if they provide no useful insights"
+    ],
+    "weekly_goals": [
+      "Complete all high-priority tasks identified in daily schedule",
+      "Establish consistent deep work routine with protected time blocks",
+      "Maintain updated task tracking system in CURRENT_TASK.md"
+    ],
+    "avoid_these": [
+      "Checking emails outside of scheduled 09:00-09:15 block",
+      "Allowing interruptions during protected deep work time",
+      "Spending time on automated briefings that provide no actionable insights"
+    ],
+    "energy_management": "Schedule high-focus tasks (09:15-10:30, 13:00-15:00) during peak energy hours. Use breaks strategically between deep work blocks to recharge. Reserve afternoon hours (15:30-16:30) for tasks requiring medium focus when energy naturally dips.",
+    "generated_at": "2026-02-28T03:54:39.447429"
+  }
+}

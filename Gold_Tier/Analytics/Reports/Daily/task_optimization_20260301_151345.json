@@ -1,0 +1,230 @@
+{
+  "generated_at": "2026-03-01T15:13:45.638344",
+  "tasks_analyzed": 3,
+  "eisenhower_matrix": {
+    "urgent_important": [
+      {
+        "task": "Review urgent emails from morning briefing",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "The briefing processed 51 emails requiring attention, indicating urgent communication needs",
+        "suggested_action": "Do first"
+      },
+      {
+        "task": "Review urgent emails from morning briefing",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "The briefing processed 0 emails requiring attention, but still recommends reviewing urgent emails",
+        "suggested_action": "Do first"
+      }
+    ],
+    "important_not_urgent": [
+      {
+        "task": "Complete high-priority tasks",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "The briefing recommends completing high-priority tasks first",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Complete high-priority tasks",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "The briefing recommends completing high-priority tasks first",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Build Gold Tier System",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "This is a long-running task that needs completion but isn't time-sensitive",
+        "suggested_action": "Schedule time"
+      }
+    ],
+    "urgent_not_important": [],
+    "not_urgent_not_important": [
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "While beneficial, this is a general recommendation rather than an urgent task",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "While beneficial, this is a general recommendation rather than an urgent task",
+        "suggested_action": "Consider eliminating"
+      }
+    ],
+    "summary": {
+      "total_tasks": 7,
+      "do_first_count": 2,
+      "schedule_count": 3,
+      "delegate_count": 0,
+      "eliminate_count": 2
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-09:30",
+        "task": "Review urgent emails from morning briefing (gold_briefing_20260224.md)",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "09:30-10:00",
+        "task": "Review urgent emails from morning briefing (gold_briefing_20260228.md)",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:00-11:30",
+        "task": "Complete high-priority tasks",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "11:30-12:30",
+        "task": "Lunch break",
+        "category": "break",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "12:30-14:00",
+        "task": "Build Gold Tier System",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "14:00-15:00",
+        "task": "Complete high-priority tasks",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "15:00-15:30",
+        "task": "Break/Email catch-up",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "15:30-16:30",
+        "task": "Complete high-priority tasks",
+        "category": "deep_work",
+        "energy_level": "low",
+        "focus_required": true
+      },
+      {
+        "time_block": "16:30-17:00",
+        "task": "Wrap-up and planning for next day",
+        "category": "admin",
+        "energy_level": "low",
+        "focus_required": false
+      }
+    ],
+    "deep_work_blocks": [
+      "10:00-11:30",
+      "12:30-14:00",
+      "15:30-16:30"
+    ],
+    "admin_blocks": [
+      "09:00-09:30",
+      "09:30-10:00",
+      "16:30-17:00"
+    ],
+    "breaks": [
+      "11:30-12:30",
+      "15:00-15:30"
+    ],
+    "protected_time": "Three deep work blocks (10:00-11:30, 12:30-14:00, 15:30-16:30) are protected for focused, high-priority work",
+    "flexibility_buffer": "15:00-15:30 break block can be used for unexpected urgent tasks if needed"
+  },
+  "bottlenecks": {
+    "bottlenecks": [
+      {
+        "type": "information",
+        "description": "Current task status unclear - task shows 'idle' but no active work is being tracked",
+        "blocking_tasks": [
+          "Build Gold Tier System"
+        ],
+        "resolution": "Update CURRENT_TASK.md to reflect actual work status and progress"
+      },
+      {
+        "type": "time",
+        "description": "Multiple urgent email reviews competing for immediate attention",
+        "blocking_tasks": [
+          "Review urgent emails from morning briefing (2026-02-24)",
+          "Review urgent emails from morning briefing (2026-02-28)"
+        ],
+        "resolution": "Batch email review sessions and prioritize based on sender/urgency"
+      }
+    ],
+    "overloaded_areas": [
+      "email management",
+      "task tracking"
+    ],
+    "resource_conflicts": [
+      "Manual task tracking in markdown files creates overhead and potential for missed updates"
+    ],
+    "recommendations": [
+      "Implement automated task status updates to reduce manual overhead",
+      "Create dedicated time blocks for email processing to avoid constant context switching",
+      "Consolidate briefing recommendations into a single actionable daily plan"
+    ],
+    "risk_level": "medium"
+  },
+  "recommendations": {
+    "priority_actions": [
+      {
+        "action": "Review urgent emails from morning briefing (gold_briefing_20260224.md)",
+        "impact": "high",
+        "effort": "medium",
+        "deadline": "09:00-09:30 today"
+      },
+      {
+        "action": "Review urgent emails from morning briefing (gold_briefing_20260228.md)",
+        "impact": "high",
+        "effort": "medium",
+        "deadline": "09:30-10:00 today"
+      },
+      {
+        "action": "Complete high-priority tasks",
+        "impact": "high",
+        "effort": "high",
+        "deadline": "10:00-11:30 today"
+      },
+      {
+        "action": "Build Gold Tier System",
+        "impact": "high",
+        "effort": "high",
+        "deadline": "12:30-14:00 today"
+      }
+    ],
+    "focus_recommendations": [
+      "Protect deep work blocks (10:00-11:30, 12:30-14:00, 15:30-16:30) from interruptions",
+      "Batch email processing to avoid constant context switching",
+      "Update CURRENT_TASK.md to reflect actual work status and progress"
+    ],
+    "delegation_opportunities": [],
+    "time_saving_tips": [
+      "Consolidate briefing recommendations into a single actionable daily plan",
+      "Implement automated task status updates to reduce manual overhead",
+      "Use the 15:00-15:30 break block as flexibility buffer for unexpected urgent tasks"
+    ],
+    "weekly_goals": [
+      "Complete the Gold Tier System build",
+      "Establish automated task tracking to reduce manual overhead",
+      "Create a consolidated daily briefing system to streamline task prioritization"
+    ],
+    "avoid_these": [
+      "Constant email checking throughout the day",
+      "Manual task tracking in markdown files without automated updates",
+      "Context switching between urgent email reviews and deep work"
+    ],
+    "energy_management": "Schedule high-focus tasks (email reviews, deep work) during peak energy hours (09:00-11:30), medium-energy tasks (Gold Tier System build) during mid-day (12:30-14:00), and low-energy tasks (wrap-up) at day's end (16:30-17:00). Use breaks strategically to recharge between intensive work blocks.",
+    "generated_at": "2026-03-01T15:13:45.638325"
+  }
+}

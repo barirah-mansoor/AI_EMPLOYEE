@@ -1,0 +1,53 @@
+{
+  "file": "/mnt/c/Users/Admin/AI_Employee_Vault/Needs_Action/EMAIL_19c5fd53_New_Job_Matches_20260224_020814.md",
+  "analysis": {
+    "sentiment": "neutral",
+    "urgency": "normal",
+    "intent": "information",
+    "intent_details": "Notifying about new job matches on Guru.com platform",
+    "key_topics": [
+      "job matches",
+      "freelancing opportunities",
+      "Guru.com"
+    ],
+    "action_required": false,
+    "suggested_priority": "normal",
+    "confidence": 0.95,
+    "analyzed_at": "2026-02-24T05:31:41.074535",
+    "metadata": {
+      "file": "/mnt/c/Users/Admin/AI_Employee_Vault/Needs_Action/EMAIL_19c5fd53_New_Job_Matches_20260224_020814.md"
+    }
+  },
+  "action_items": [],
+  "responses": [
+    {
+      "tone": "professional",
+      "subject": "Re: New Job Matches!",
+      "body": "Dear Guru.com Team,\n\nThank you for the notification regarding new job matches. I have received your email and will review the available opportunities at my earliest convenience.\n\nBest regards,\n[Your Name]",
+      "rationale": "A professional acknowledgment confirms receipt of the information while maintaining a business-appropriate tone. This response is suitable for a job matching service notification."
+    },
+    {
+      "tone": "formal",
+      "subject": "Acknowledged: New Job Matches Notification",
+      "body": "Dear Sir/Madam,\n\nThis is to acknowledge receipt of your email dated February 15, 2026 regarding new job matches on the Guru.com platform. The information has been noted and will be reviewed accordingly.\n\nShould there be any specific actions required from my end, please do not hesitate to advise.\n\nYours faithfully,\n[Your Name]",
+      "rationale": "A formal acknowledgment provides a more structured response suitable for professional services communications, ensuring the sender knows their message was received and will be acted upon."
+    },
+    {
+      "tone": "professional",
+      "subject": "New Job Matches - Received",
+      "body": "Hello,\n\nI've received your notification about new job matches. I appreciate you keeping me informed of opportunities that align with my profile.\n\nI will review the matches and follow up if interested.\n\nBest,\n[Your Name]",
+      "rationale": "A concise professional response strikes a balance between acknowledgment and brevity, appropriate for routine notifications from a job matching service."
+    }
+  ],
+  "auto_respond": {
+    "auto_respond": true,
+    "reason": "Meets auto-response criteria",
+    "recommended_response": {
+      "tone": "professional",
+      "subject": "Re: New Job Matches!",
+      "body": "Dear Guru.com Team,\n\nThank you for the notification regarding new job matches. I have received your email and will review the available opportunities at my earliest convenience.\n\nBest regards,\n[Your Name]",
+      "rationale": "A professional acknowledgment confirms receipt of the information while maintaining a business-appropriate tone. This response is suitable for a job matching service notification."
+    }
+  },
+  "processed_at": "2026-02-24T05:31:57.904780"
+}

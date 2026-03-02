@@ -1,0 +1,144 @@
+# ===============================================
+# AI Employee Vault - .gitignore
+# Safety & Privacy Focused
+# ===============================================
+
+# -----------------------------------------------
+# CREDENTIALS & SECRETS (CRITICAL)
+# -----------------------------------------------
+.env
+*.key
+*.pem
+*.p12
+token.json
+credentials.json
+client_secret_*.json
+*.secret
+*.token
+api_key*
+api-key*
+
+# -----------------------------------------------
+# EMAIL DATA (PRIVACY)
+# -----------------------------------------------
+Needs_Action/EMAIL_*
+Needs_Action/WHATSAPP_*
+Needs_Action/FINANCE_*
+Needs_Action/ALERT_*
+Silver_Tier/Gmail/Processed/
+Silver_Tier/Gmail/Sent/
+Done/*.md
+
+# -----------------------------------------------
+# CREDENTIALS (CRITICAL - ALL CREDENTIAL FILES)
+# -----------------------------------------------
+Silver_Tier/Credentials/
+!Silver_Tier/Credentials/.gitignore
+!Silver_Tier/Credentials/.gitkeep
+!Silver_Tier/Credentials/GMAIL_SETUP_README.md
+
+# -----------------------------------------------
+# LOGS (CONTAINS POTENTIAL SENSITIVE DATA)
+# -----------------------------------------------
+Logs/*.json
+Logs/*.log
+*.log
+Gold_Tier/Logs/audit_logs/*.json
+Gold_Tier/Logs/agent_logs/*.log
+
+# -----------------------------------------------
+# TEMPORARY & AUTO-GENERATED
+# -----------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.coverage
+*.tmp
+*.backup
+.temp/
+.watcher.pid
+.scheduler.pid
+
+# -----------------------------------------------
+# DATABASE FILES
+# -----------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# -----------------------------------------------
+# OS FILES
+# -----------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------------------------
+# VS CODE (PERSONAL SETTINGS)
+# -----------------------------------------------
+.vscode/launch.json
+.vscode/tasks.json
+
+# -----------------------------------------------
+# NODE.JS
+# -----------------------------------------------
+node_modules/
+npm-debug.log*
+
+# -----------------------------------------------
+# LARGE MEDIA FILES
+# -----------------------------------------------
+*.zip
+*.tar.gz
+*.pdf
+*.docx
+*.mp4
+*.mp3
+*.wav
+
+# -----------------------------------------------
+# TEMPORARY PATCH FILES & BUNDLES
+# -----------------------------------------------
+*.patch
+*.bundle
+
+# -----------------------------------------------
+# PLANS & APPROVALS (CAN CONTAIN CONTEXT)
+# -----------------------------------------------
+Plans/PLAN_*
+Pending_Approval/
+Approved/
+
+# -----------------------------------------------
+# BRIEFINGS (CAN CONTAIN CONTEXT)
+# -----------------------------------------------
+Briefings/*.md
+
+# -----------------------------------------------
+# KNOWLEDGE BASE (PERSONAL RESEARCH DATA)
+# -----------------------------------------------
+Gold_Tier/Knowledge_Base/documents/
+Gold_Tier/Knowledge_Base/embeddings/
+Gold_Tier/Knowledge_Base/chroma_db/
+
+# -----------------------------------------------
+# WHATSAPP SESSION (BROWSER PROFILE)
+# -----------------------------------------------
+.whatsapp_session/
+Silver_Tier/.whatsapp_processed.json
+
+# -----------------------------------------------
+# PROCESS PID FILES
+# -----------------------------------------------
+.ai_employee_pids/
+*.pid
+
+# -----------------------------------------------
+# MCP DEV LOGS (CAN CONTAIN DRAFT POSTS/EMAILS)
+# -----------------------------------------------
+Logs/email_mcp_dev.log
+Logs/social_mcp_dev.log
+Logs/watchdog.log
+Logs/ralph_wiggum.json

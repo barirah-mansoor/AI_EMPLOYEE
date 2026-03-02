@@ -1,0 +1,224 @@
+{
+  "generated_at": "2026-03-01T01:29:11.358545",
+  "tasks_analyzed": 3,
+  "eisenhower_matrix": {
+    "urgent_important": [
+      {
+        "task": "Review urgent emails from Gold Tier Morning Briefing",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "The briefing processed 51 emails requiring attention, indicating urgent communication needs",
+        "suggested_action": "Do first"
+      },
+      {
+        "task": "Complete high-priority tasks from Gold Tier Morning Briefing",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "The briefing explicitly recommends completing high-priority tasks first",
+        "suggested_action": "Do first"
+      },
+      {
+        "task": "Review urgent emails from Gold Tier Morning Briefing",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "The briefing processed emails requiring attention, indicating urgent communication needs",
+        "suggested_action": "Do first"
+      },
+      {
+        "task": "Complete high-priority tasks from Gold Tier Morning Briefing",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "The briefing explicitly recommends completing high-priority tasks first",
+        "suggested_action": "Do first"
+      }
+    ],
+    "important_not_urgent": [
+      {
+        "task": "Build Gold Tier System",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "This is a long-running system development task that requires focused work but is not time-critical",
+        "suggested_action": "Schedule time"
+      }
+    ],
+    "urgent_not_important": [],
+    "not_urgent_not_important": [],
+    "summary": {
+      "total_tasks": 5,
+      "do_first_count": 4,
+      "schedule_count": 1,
+      "delegate_count": 0,
+      "eliminate_count": 0
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-09:30",
+        "task": "Review urgent emails from Gold Tier Morning Briefing (20260224)",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "09:30-10:30",
+        "task": "Complete high-priority tasks from Gold Tier Morning Briefing (20260224)",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:30-11:00",
+        "task": "Break",
+        "category": "break",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "11:00-11:30",
+        "task": "Review urgent emails from Gold Tier Morning Briefing (20260228)",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "11:30-12:30",
+        "task": "Complete high-priority tasks from Gold Tier Morning Briefing (20260228)",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:30-13:30",
+        "task": "Lunch break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:30-15:30",
+        "task": "Build Gold Tier System",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "15:30-16:00",
+        "task": "Break",
+        "category": "break",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "16:00-17:00",
+        "task": "Administrative tasks and email follow-up",
+        "category": "admin",
+        "energy_level": "low",
+        "focus_required": false
+      }
+    ],
+    "deep_work_blocks": [
+      "09:30-10:30",
+      "11:30-12:30",
+      "13:30-15:30"
+    ],
+    "admin_blocks": [
+      "09:00-09:30",
+      "11:00-11:30",
+      "16:00-17:00"
+    ],
+    "breaks": [
+      "10:30-11:00",
+      "12:30-13:30",
+      "15:30-16:00"
+    ],
+    "protected_time": "13:30-15:30 - Dedicated to building the Gold Tier System, protected from interruptions",
+    "flexibility_buffer": "16:00-17:00 - Reserved for unexpected tasks and email follow-up"
+  },
+  "bottlenecks": {
+    "bottlenecks": [
+      {
+        "type": "time",
+        "description": "Email review bottleneck due to 51 emails requiring attention",
+        "blocking_tasks": [
+          "Review urgent emails from Gold Tier Morning Briefing"
+        ],
+        "resolution": "Prioritize email review first thing, use batch processing techniques"
+      },
+      {
+        "type": "resource",
+        "description": "Gold Tier System development task may be competing with urgent email responses",
+        "blocking_tasks": [
+          "Build Gold Tier System"
+        ],
+        "resolution": "Schedule dedicated deep work blocks for system development, protect from interruptions"
+      }
+    ],
+    "overloaded_areas": [
+      "Email processing",
+      "Task prioritization"
+    ],
+    "resource_conflicts": [
+      "Time conflict between urgent email review and important system development work"
+    ],
+    "recommendations": [
+      "Process urgent emails immediately to clear the bottleneck",
+      "Schedule Gold Tier System development during protected deep work time",
+      "Use the Ralph Wiggum pattern to prevent task switching during system development",
+      "Set MAX_ITERATIONS=10 to prevent infinite loops in task tracking"
+    ],
+    "risk_level": "medium"
+  },
+  "recommendations": {
+    "priority_actions": [
+      {
+        "action": "Review urgent emails from Gold Tier Morning Briefing (20260224) at 09:00",
+        "impact": "high",
+        "effort": "medium",
+        "deadline": "09:00 today"
+      },
+      {
+        "action": "Complete high-priority tasks from Gold Tier Morning Briefing (20260224) at 09:30",
+        "impact": "high",
+        "effort": "high",
+        "deadline": "10:30 today"
+      },
+      {
+        "action": "Review urgent emails from Gold Tier Morning Briefing (20260228) at 11:00",
+        "impact": "high",
+        "effort": "medium",
+        "deadline": "11:00 today"
+      },
+      {
+        "action": "Complete high-priority tasks from Gold Tier Morning Briefing (20260228) at 11:30",
+        "impact": "high",
+        "effort": "high",
+        "deadline": "12:30 today"
+      },
+      {
+        "action": "Build Gold Tier System from 13:30-15:30",
+        "impact": "high",
+        "effort": "high",
+        "deadline": "15:30 today"
+      }
+    ],
+    "focus_recommendations": [
+      "Use batch processing for email review to handle 51 urgent emails efficiently",
+      "Apply the Ralph Wiggum pattern during Gold Tier System development to prevent task switching",
+      "Set MAX_ITERATIONS=10 to prevent infinite loops in task tracking"
+    ],
+    "delegation_opportunities": [],
+    "time_saving_tips": [
+      "Process urgent emails immediately to clear the bottleneck",
+      "Schedule Gold Tier System development during protected deep work time",
+      "Use the Eisenhower Matrix to prioritize tasks effectively"
+    ],
+    "weekly_goals": [
+      "Complete all urgent email reviews and high-priority tasks from both briefings",
+      "Make significant progress on Gold Tier System development",
+      "Establish a sustainable workflow for handling urgent communications"
+    ],
+    "avoid_these": [
+      "Switching between email review and system development tasks",
+      "Letting urgent emails interrupt deep work on the Gold Tier System",
+      "Procrastinating on high-priority tasks from the briefings"
+    ],
+    "energy_management": "Schedule high-energy tasks (email review and high-priority work) in the morning when focus is highest. Protect deep work blocks for system development during medium-energy afternoon hours. Use breaks strategically to maintain energy levels throughout the day.",
+    "generated_at": "2026-03-01T01:29:11.358515"
+  }
+}

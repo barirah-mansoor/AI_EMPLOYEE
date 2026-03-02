@@ -1,0 +1,232 @@
+{
+  "generated_at": "2026-02-28T02:28:03.310582",
+  "tasks_analyzed": 3,
+  "eisenhower_matrix": {
+    "urgent_important": [],
+    "important_not_urgent": [
+      {
+        "task": "Build Gold Tier System",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "This is a long-running multi-step task that requires focused work and represents a significant system development effort",
+        "suggested_action": "Schedule dedicated time blocks"
+      }
+    ],
+    "urgent_not_important": [
+      {
+        "task": "Review urgent emails from briefing",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "The briefing indicates 51 emails requiring attention, which creates immediate pressure but may not be truly important",
+        "suggested_action": "Delegate or batch process"
+      },
+      {
+        "task": "Review urgent emails from briefing",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "The briefing indicates 0 emails requiring attention, but the recommendation to 'Review urgent emails' creates false urgency",
+        "suggested_action": "Delegate or batch process"
+      }
+    ],
+    "not_urgent_not_important": [
+      {
+        "task": "Complete high-priority tasks first",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Generic recommendation without specific task context, creates busywork",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Complete high-priority tasks first",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Generic recommendation without specific task context, creates busywork",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Good practice but presented as urgent action rather than strategic planning",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Good practice but presented as urgent action rather than strategic planning",
+        "suggested_action": "Consider eliminating"
+      }
+    ],
+    "summary": {
+      "total_tasks": 6,
+      "do_first_count": 0,
+      "schedule_count": 1,
+      "delegate_count": 2,
+      "eliminate_count": 3
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-10:30",
+        "task": "Build Gold Tier System",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:30-11:00",
+        "task": "Review and process urgent emails",
+        "category": "admin",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "11:00-11:15",
+        "task": "Morning break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "11:15-12:30",
+        "task": "Build Gold Tier System (continued)",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:30-13:30",
+        "task": "Lunch break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:30-15:00",
+        "task": "Build Gold Tier System (continued)",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "15:00-15:15",
+        "task": "Afternoon break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "15:15-16:30",
+        "task": "Build Gold Tier System (final block)",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "16:30-17:00",
+        "task": "Email processing and task wrap-up",
+        "category": "admin",
+        "energy_level": "low",
+        "focus_required": false
+      }
+    ],
+    "deep_work_blocks": [
+      "09:00-10:30",
+      "11:15-12:30",
+      "13:30-15:00",
+      "15:15-16:30"
+    ],
+    "admin_blocks": [
+      "10:30-11:00",
+      "16:30-17:00"
+    ],
+    "breaks": [
+      "11:00-11:15",
+      "12:30-13:30",
+      "15:00-15:15"
+    ],
+    "protected_time": "Four dedicated deep work blocks (9:00-12:30 and 13:30-16:30) protected for building the Gold Tier System, with no meetings scheduled",
+    "flexibility_buffer": "15-minute buffer between 16:30-17:00 for unexpected tasks or overflow work"
+  },
+  "bottlenecks": {
+    "bottlenecks": [
+      {
+        "type": "time",
+        "description": "Build Gold Tier System task is in progress but has no completion timeline, creating uncertainty about when it will be finished",
+        "blocking_tasks": [
+          "Build Gold Tier System"
+        ],
+        "resolution": "Set specific deadline and break into smaller milestones with estimated completion times"
+      },
+      {
+        "type": "information",
+        "description": "Gold Tier briefings recommend reviewing urgent emails but provide no specific email details or priorities",
+        "blocking_tasks": [
+          "Review urgent emails from briefing"
+        ],
+        "resolution": "Include actual email summaries or remove the recommendation entirely"
+      }
+    ],
+    "overloaded_areas": [
+      "task management",
+      "email processing"
+    ],
+    "resource_conflicts": [
+      "Time conflict between 'Build Gold Tier System' and generic 'high-priority tasks' recommendations without clear prioritization"
+    ],
+    "recommendations": [
+      "Implement time blocking for the Gold Tier System development with specific milestones",
+      "Remove or clarify the 'Review urgent emails' recommendation to prevent false urgency",
+      "Replace generic 'high-priority tasks' and 'deep work' recommendations with specific actionable items",
+      "Set MAX_ITERATIONS=10 for the Ralph Wiggum pattern to prevent infinite loops"
+    ],
+    "risk_level": "medium"
+  },
+  "recommendations": {
+    "priority_actions": [
+      {
+        "action": "Schedule dedicated deep work blocks for building the Gold Tier System",
+        "impact": "high",
+        "effort": "high",
+        "deadline": "This week"
+      },
+      {
+        "action": "Set specific deadline and break Gold Tier System into smaller milestones",
+        "impact": "high",
+        "effort": "medium",
+        "deadline": "Today"
+      },
+      {
+        "action": "Batch process urgent emails during designated admin blocks instead of immediate review",
+        "impact": "medium",
+        "effort": "low",
+        "deadline": "Tomorrow"
+      }
+    ],
+    "focus_recommendations": [
+      "Protect the four deep work blocks (9:00-12:30 and 13:30-16:30) from interruptions",
+      "Turn off notifications during deep work sessions",
+      "Use the Pomodoro technique (25 minutes work, 5 minutes break) within deep work blocks"
+    ],
+    "delegation_opportunities": [
+      "Delegate email triage to an assistant or team member",
+      "Outsource initial Gold Tier System research or documentation",
+      "Assign routine admin tasks to team members to free up deep work time"
+    ],
+    "time_saving_tips": [
+      "Batch similar tasks together (email processing, admin work)",
+      "Use templates for recurring communications",
+      "Set up email filters to automatically sort incoming messages",
+      "Use time tracking to identify where time is actually being spent"
+    ],
+    "weekly_goals": [
+      "Complete Gold Tier System milestone 1",
+      "Establish a consistent deep work routine",
+      "Reduce email processing time by 50%",
+      "Delegate at least two recurring tasks"
+    ],
+    "avoid_these": [
+      "Checking email during deep work blocks",
+      "Starting the day with low-priority tasks",
+      "Overcommitting to meetings during protected work time",
+      "Multitasking between deep work and admin tasks"
+    ],
+    "energy_management": "Schedule deep work blocks during your peak energy hours (typically morning for most people). Take regular breaks between focused sessions to maintain cognitive performance. Use the afternoon for admin tasks when energy naturally dips. Stay hydrated and take movement breaks to sustain energy throughout the day.",
+    "generated_at": "2026-02-28T02:28:03.310551"
+  }
+}

@@ -1,0 +1,54 @@
+# AI Agents Configuration
+
+agents:
+  email_agent:
+    enabled: true
+    auto_respond: true
+    confidence_threshold: 0.85
+    max_daily_auto_responses: 20
+    model: "claude-sonnet-4-20250514"
+    features:
+      - sentiment_analysis
+      - intent_detection
+      - action_item_extraction
+      - response_drafting
+
+  research_agent:
+    enabled: true
+    max_sources: 10
+    model: "claude-sonnet-4-20250514"
+    features:
+      - web_search
+      - source_analysis
+      - synthesis
+      - knowledge_storage
+
+  meeting_agent:
+    enabled: true
+    prep_hours_before: 2
+    followup_hours_after: 1
+    model: "claude-sonnet-4-20250514"
+    features:
+      - context_gathering
+      - attendee_research
+      - briefing_generation
+      - followup_drafting
+
+  task_optimizer:
+    enabled: true
+    optimization_frequency: "hourly"
+    model: "claude-sonnet-4-20250514"
+    features:
+      - eisenhower_matrix
+      - schedule_optimization
+      - bottleneck_detection
+      - recommendations
+
+  analytics_agent:
+    enabled: true
+    report_frequency: "daily"
+    model: "claude-sonnet-4-20250514"
+    features:
+      - productivity_metrics
+      - trend_analysis
+      - performance_reports

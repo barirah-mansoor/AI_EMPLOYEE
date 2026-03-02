@@ -1,0 +1,53 @@
+{
+  "file": "/mnt/c/Users/Admin/AI_Employee_Vault/Needs_Action/EMAIL_19c4f984_On_your_mark_Get_set_20260224_020822.md",
+  "analysis": {
+    "sentiment": "neutral",
+    "urgency": "low",
+    "intent": "information",
+    "intent_details": "Promotional email about watching something together using Zoom",
+    "key_topics": [
+      "Zoom",
+      "watch together",
+      "promotional"
+    ],
+    "action_required": false,
+    "suggested_priority": "low",
+    "confidence": 0.85,
+    "analyzed_at": "2026-02-24T05:20:41.133592",
+    "metadata": {
+      "file": "/mnt/c/Users/Admin/AI_Employee_Vault/Needs_Action/EMAIL_19c4f984_On_your_mark_Get_set_20260224_020822.md"
+    }
+  },
+  "action_items": [],
+  "responses": [
+    {
+      "tone": "professional",
+      "subject": "Re: On your mark. Get set. Watch together.",
+      "body": "Dear Zoom Team,\n\nThank you for reaching out regarding the upcoming event. I have received your email and will review the details at my earliest convenience.\n\nPlease let me know if there are any specific actions required from my end.\n\nBest regards,\n[Your Name]",
+      "rationale": "A professional acknowledgment is appropriate for this informational email, confirming receipt while maintaining a business-appropriate tone."
+    },
+    {
+      "tone": "formal",
+      "subject": "Acknowledgement of Event Invitation",
+      "body": "Dear Zoom Communications,\n\nI hereby acknowledge receipt of your recent correspondence dated February 11, 2026, regarding the upcoming event.\n\nI will carefully review the provided information and determine my participation status in due course.\n\nShould you require any additional information or have further inquiries, please do not hesitate to contact me.\n\nRespectfully,\n[Your Name]",
+      "rationale": "A formal response is suitable for business communications, particularly when dealing with event invitations from professional service providers."
+    },
+    {
+      "tone": "professional",
+      "subject": "Event Details Received",
+      "body": "Hello,\n\nThank you for the information about the upcoming event. I've received your email and will review the details.\n\nIf you have any specific questions or need additional information from me, please let me know.\n\nBest regards,\n[Your Name]",
+      "rationale": "This response maintains professionalism while being slightly more direct, appropriate for routine business communications."
+    }
+  ],
+  "auto_respond": {
+    "auto_respond": true,
+    "reason": "Meets auto-response criteria",
+    "recommended_response": {
+      "tone": "professional",
+      "subject": "Re: On your mark. Get set. Watch together.",
+      "body": "Dear Zoom Team,\n\nThank you for reaching out regarding the upcoming event. I have received your email and will review the details at my earliest convenience.\n\nPlease let me know if there are any specific actions required from my end.\n\nBest regards,\n[Your Name]",
+      "rationale": "A professional acknowledgment is appropriate for this informational email, confirming receipt while maintaining a business-appropriate tone."
+    }
+  },
+  "processed_at": "2026-02-24T05:20:52.530597"
+}

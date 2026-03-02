@@ -1,0 +1,439 @@
+{
+  "generated_at": "2026-03-02T06:26:09.748387",
+  "tasks_analyzed": 5,
+  "eisenhower_matrix": {
+    "urgent_important": [
+      {
+        "task": "Process 51 emails requiring attention",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Email processing is often time-sensitive and requires immediate attention",
+        "suggested_action": "Do first / immediate action"
+      }
+    ],
+    "important_not_urgent": [
+      {
+        "task": "Analyze 2 tasks and generate optimization recommendations",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Task optimization improves productivity but doesn't have immediate deadlines",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Review urgent emails",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Important for staying on top of communications but not immediately critical",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Complete high-priority tasks first",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Strategic task management for long-term productivity",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Essential for focused work but requires intentional scheduling",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Analyze 3 tasks and generate optimization recommendations",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Task optimization improves productivity but doesn't have immediate deadlines",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Review urgent emails",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Important for staying on top of communications but not immediately critical",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Complete high-priority tasks first",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Strategic task management for long-term productivity",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Essential for focused work but requires intentional scheduling",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Analyze 4 tasks and generate optimization recommendations",
+        "original_file": "gold_briefing_20260301.md",
+        "reason": "Task optimization improves productivity but doesn't have immediate deadlines",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Review urgent emails",
+        "original_file": "gold_briefing_20260301.md",
+        "reason": "Important for staying on top of communications but not immediately critical",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Complete high-priority tasks first",
+        "original_file": "gold_briefing_20260301.md",
+        "reason": "Strategic task management for long-term productivity",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260301.md",
+        "reason": "Essential for focused work but requires intentional scheduling",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Establish meeting purpose",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Important for effective meetings but not time-critical",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Set agenda for future discussions",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Strategic planning for meetings but not urgent",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Confirm meeting time and location",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Preparation task that's important but not urgent",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Prepare necessary materials or documents",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Meeting preparation that's important but not urgent",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Identify potential agenda items",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Strategic meeting planning but not time-sensitive",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Communicate with potential attendees",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Important coordination but not urgent",
+        "suggested_action": "Schedule time"
+      }
+    ],
+    "urgent_not_important": [],
+    "not_urgent_not_important": [
+      {
+        "task": "Track long-running tasks",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "System maintenance task with no immediate impact",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Use file to track long-running tasks",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "Administrative task with no direct value",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Update frontmatter",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "Documentation overhead with minimal benefit",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Work on task until complete",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "Vague instruction without clear value",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Update status when done",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "Administrative overhead",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Enable Ralph Wiggum Stop hook",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "Technical configuration with no direct productivity benefit",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Set MAX_ITERATIONS environment variable",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "Technical configuration without clear purpose",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Generate Gold Tier Morning Briefing",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Automated report generation with no immediate action required",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Process 0 emails requiring attention",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "No action required when no emails need processing",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Generate Gold Tier Morning Briefing",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Automated report generation with no immediate action required",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Process 0 emails requiring attention",
+        "original_file": "gold_briefing_20260301.md",
+        "reason": "No action required when no emails need processing",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Generate Gold Tier Morning Briefing",
+        "original_file": "gold_briefing_20260301.md",
+        "reason": "Automated report generation with no immediate action required",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Generate Meeting Briefing",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Automated report generation with no immediate action required",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Introduction and purpose of meeting",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Generic agenda item without specific purpose",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Review of current projects or initiatives",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Vague agenda item without specific focus",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Discussion of any new business",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Generic agenda item without specific topics",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Setting agenda for next meeting",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Meta-planning without immediate value",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Meeting objectives",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Generic talking point without specific content",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Current status of projects",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Vague discussion topic",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Any new initiatives or ideas",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Open-ended discussion without specific focus",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Next steps and follow-up actions",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Generic closing item",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "What are the main goals for this meeting?",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Self-referential question",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Are there any specific topics that need to be addressed?",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Open-ended question without context",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Who should be invited to future meetings?",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Meta-planning question",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "What are the next steps after this meeting?",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Self-referential question",
+        "suggested_action": "Consider eliminating"
+      }
+    ],
+    "summary": {
+      "total_tasks": 24,
+      "do_first_count": 1,
+      "schedule_count": 18,
+      "delegate_count": 0,
+      "eliminate_count": 5
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-10:30",
+        "task": "Process 51 emails requiring attention",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:30-11:00",
+        "task": "Break and transition",
+        "category": "break",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "11:00-12:30",
+        "task": "Analyze 2 tasks and generate optimization recommendations",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:30-13:30",
+        "task": "Lunch break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:30-15:00",
+        "task": "Review urgent emails and complete high-priority tasks",
+        "category": "admin",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "15:00-15:30",
+        "task": "Break and transition",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "15:30-17:00",
+        "task": "Analyze 3 tasks and generate optimization recommendations",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      }
+    ],
+    "deep_work_blocks": [
+      "11:00-12:30",
+      "15:30-17:00"
+    ],
+    "admin_blocks": [
+      "09:00-10:30",
+      "13:30-15:00"
+    ],
+    "breaks": [
+      "10:30-11:00",
+      "12:30-13:30",
+      "15:00-15:30"
+    ],
+    "protected_time": "Deep work blocks from 11:00-12:30 and 15:30-17:00 are protected for focused, strategic work without interruptions",
+    "flexibility_buffer": "30 minutes at the end of the day for unexpected tasks or overflow work"
+  },
+  "bottlenecks": {
+    "bottlenecks": [
+      {
+        "type": "information",
+        "description": "No active task being tracked in CURRENT_TASK.md file",
+        "blocking_tasks": [
+          "Build Gold Tier System"
+        ],
+        "resolution": "Update CURRENT_TASK.md with active task status to enable proper task tracking"
+      },
+      {
+        "type": "dependency",
+        "description": "Email processing dependency on email volume",
+        "blocking_tasks": [
+          "Process 51 emails requiring attention"
+        ],
+        "resolution": "Batch process emails or use filtering to prioritize urgent ones first"
+      }
+    ],
+    "overloaded_areas": [
+      "Task analysis and optimization",
+      "Meeting preparation and coordination"
+    ],
+    "resource_conflicts": [
+      "Time conflict between email processing and deep work blocks",
+      "Cognitive load from analyzing multiple tasks across different time periods"
+    ],
+    "recommendations": [
+      "Prioritize the 51 emails requiring attention immediately",
+      "Consolidate task analysis to avoid redundant work across similar briefing files",
+      "Schedule specific time blocks for email processing and deep work",
+      "Eliminate automated report generation tasks that provide no immediate value",
+      "Focus on actionable agenda items rather than generic placeholders for the meeting"
+    ],
+    "risk_level": "medium"
+  },
+  "recommendations": {
+    "priority_actions": [
+      {
+        "action": "Process 51 emails requiring attention immediately",
+        "impact": "high",
+        "effort": "high",
+        "deadline": "09:00-10:30 today"
+      },
+      {
+        "action": "Analyze 2 tasks and generate optimization recommendations",
+        "impact": "high",
+        "effort": "medium",
+        "deadline": "11:00-12:30 today"
+      },
+      {
+        "action": "Review urgent emails and complete high-priority tasks",
+        "impact": "medium",
+        "effort": "medium",
+        "deadline": "13:30-15:00 today"
+      },
+      {
+        "action": "Analyze 3 tasks and generate optimization recommendations",
+        "impact": "high",
+        "effort": "medium",
+        "deadline": "15:30-17:00 today"
+      }
+    ],
+    "focus_recommendations": [
+      "Protect deep work blocks from 11:00-12:30 and 15:30-17:00 for focused task analysis",
+      "Batch process similar tasks to avoid context switching",
+      "Use the Pomodoro technique during deep work blocks (25 minutes focus, 5 minutes break)"
+    ],
+    "delegation_opportunities": [],
+    "time_saving_tips": [
+      "Eliminate automated report generation tasks that provide no immediate value",
+      "Consolidate meeting preparation tasks to avoid redundancy",
+      "Use email filters to automatically sort urgent vs. non-urgent emails"
+    ],
+    "weekly_goals": [
+      "Complete task analysis for all three briefing periods (24, 28, 01)",
+      "Establish a consistent deep work routine with protected time blocks",
+      "Reduce time spent on administrative tasks by 30%"
+    ],
+    "avoid_these": [
+      "Generic meeting agenda items without specific content",
+      "Self-referential questions in meeting planning",
+      "Administrative tasks with minimal direct value"
+    ],
+    "energy_management": "Schedule high-energy tasks (email processing, task analysis) during peak cognitive hours (9:00-12:30), use breaks strategically between intensive work blocks, and reserve lower-energy periods for administrative tasks",
+    "generated_at": "2026-03-02T06:26:09.748360"
+  }
+}

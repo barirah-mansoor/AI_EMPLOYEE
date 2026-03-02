@@ -1,0 +1,181 @@
+{
+  "generated_at": "2026-02-28T23:19:17.153257",
+  "tasks_analyzed": 3,
+  "eisenhower_matrix": {
+    "urgent_important": [
+      {
+        "task": "Review urgent emails",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Email intelligence summary processed 51 emails requiring attention, indicating immediate action needed",
+        "suggested_action": "Do first"
+      },
+      {
+        "task": "Review urgent emails",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Email intelligence summary processed 0 emails requiring attention, but task optimization was performed indicating ongoing important work",
+        "suggested_action": "Do first"
+      }
+    ],
+    "important_not_urgent": [
+      {
+        "task": "Complete high-priority tasks first",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Task optimization analyzed 2 tasks and generated recommendations for long-term productivity",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Complete high-priority tasks first",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Task optimization analyzed 3 tasks and generated recommendations for long-term productivity",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Recommended action for maintaining focus and productivity",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Recommended action for maintaining focus and productivity",
+        "suggested_action": "Schedule time"
+      }
+    ],
+    "urgent_not_important": [],
+    "not_urgent_not_important": [
+      {
+        "task": "Track long-running tasks",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "This is a system file for task tracking with no active task, serving as a template",
+        "suggested_action": "Consider eliminating"
+      }
+    ],
+    "summary": {
+      "total_tasks": 6,
+      "do_first_count": 2,
+      "schedule_count": 4,
+      "delegate_count": 0,
+      "eliminate_count": 1
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-09:30",
+        "task": "Review urgent emails",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "09:30-10:30",
+        "task": "Complete high-priority tasks",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:30-11:00",
+        "task": "Break and email check",
+        "category": "break",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "11:00-12:30",
+        "task": "Protect deep work time blocks",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:30-13:30",
+        "task": "Lunch break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:30-15:00",
+        "task": "Complete high-priority tasks",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "15:00-15:30",
+        "task": "Break and email check",
+        "category": "break",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "15:30-17:00",
+        "task": "Protect deep work time blocks",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      }
+    ],
+    "deep_work_blocks": [
+      "09:30-10:30",
+      "11:00-12:30",
+      "13:30-15:00",
+      "15:30-17:00"
+    ],
+    "admin_blocks": [
+      "09:00-09:30"
+    ],
+    "breaks": [
+      "10:30-11:00",
+      "12:30-13:30",
+      "15:00-15:30"
+    ],
+    "protected_time": "Four deep work blocks (09:30-10:30, 11:00-12:30, 13:30-15:00, 15:30-17:00) protected for high-priority task completion",
+    "flexibility_buffer": "15:00-15:30 break slot available for unexpected urgent tasks"
+  },
+  "bottlenecks": {
+    "bottlenecks": [],
+    "recommendations": [],
+    "risk_level": "unknown"
+  },
+  "recommendations": {
+    "priority_actions": [
+      {
+        "action": "Review urgent emails from 09:00-09:30",
+        "impact": "high",
+        "effort": "low",
+        "deadline": "daily morning"
+      },
+      {
+        "action": "Complete high-priority tasks during protected deep work blocks",
+        "impact": "high",
+        "effort": "high",
+        "deadline": "09:30-10:30, 11:00-12:30, 13:30-15:00, 15:30-17:00"
+      }
+    ],
+    "focus_recommendations": [
+      "Protect deep work time blocks as scheduled",
+      "Use 10:30-11:00 and 15:00-15:30 for short breaks and email checks",
+      "Maintain focus during high-energy deep work periods"
+    ],
+    "delegation_opportunities": [],
+    "time_saving_tips": [
+      "Batch email checking during designated break times",
+      "Use 15:00-15:30 buffer for unexpected urgent tasks"
+    ],
+    "weekly_goals": [
+      "Complete all high-priority tasks within scheduled deep work blocks",
+      "Maintain consistent daily routine with protected focus time",
+      "Review and optimize task list weekly"
+    ],
+    "avoid_these": [
+      "Checking emails outside of designated break times",
+      "Scheduling meetings during deep work blocks",
+      "Context switching between high-priority tasks"
+    ],
+    "energy_management": "Schedule high-focus tasks during peak energy hours (09:30-12:30, 13:30-17:00), take regular breaks, and use medium-energy periods for email checking and administrative tasks",
+    "generated_at": "2026-02-28T23:19:17.153227"
+  }
+}

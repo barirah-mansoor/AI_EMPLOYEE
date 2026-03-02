@@ -1,0 +1,208 @@
+{
+  "generated_at": "2026-02-28T19:10:46.345210",
+  "tasks_analyzed": 3,
+  "eisenhower_matrix": {
+    "urgent_important": [
+      {
+        "task": "Review urgent emails from morning briefing",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Morning briefing indicates 51 emails requiring attention, which represents immediate communication needs",
+        "suggested_action": "Do first"
+      },
+      {
+        "task": "Review urgent emails from morning briefing",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Morning briefing recommends reviewing urgent emails, though count shows 0, the recommendation itself is time-sensitive",
+        "suggested_action": "Do first"
+      }
+    ],
+    "important_not_urgent": [
+      {
+        "task": "Complete high-priority tasks first",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Task optimization was performed and recommendations generated, indicating strategic importance",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Complete high-priority tasks first",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Task optimization was performed and recommendations generated, indicating strategic importance",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Recommended action for maintaining productivity and focus",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Recommended action for maintaining productivity and focus",
+        "suggested_action": "Schedule time"
+      }
+    ],
+    "urgent_not_important": [],
+    "not_urgent_not_important": [
+      {
+        "task": "Track long-running tasks using CURRENT_TASK.md",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "This is a system file for task tracking, not an actual task requiring action",
+        "suggested_action": "Consider eliminating"
+      }
+    ],
+    "summary": {
+      "total_tasks": 7,
+      "do_first_count": 2,
+      "schedule_count": 4,
+      "delegate_count": 0,
+      "eliminate_count": 1
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-10:30",
+        "task": "Review urgent emails from morning briefing",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:30-12:00",
+        "task": "Complete high-priority tasks first",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:00-13:00",
+        "task": "Lunch break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:00-14:30",
+        "task": "Protect deep work time blocks",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "14:30-15:00",
+        "task": "Review urgent emails from morning briefing",
+        "category": "admin",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "15:00-16:30",
+        "task": "Complete high-priority tasks first",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "16:30-17:00",
+        "task": "Protect deep work time blocks",
+        "category": "deep_work",
+        "energy_level": "low",
+        "focus_required": true
+      }
+    ],
+    "deep_work_blocks": [
+      "10:30-12:00",
+      "13:00-14:30",
+      "15:00-16:30",
+      "16:30-17:00"
+    ],
+    "admin_blocks": [
+      "09:00-10:30",
+      "14:30-15:00"
+    ],
+    "breaks": [
+      "12:00-13:00"
+    ],
+    "protected_time": "Four deep work blocks (10:30-12:00, 13:00-14:30, 15:00-16:30, 16:30-17:00) protected for high-priority task completion",
+    "flexibility_buffer": "30 minutes (14:30-15:00) reserved for unexpected urgent tasks or overflow from deep work"
+  },
+  "bottlenecks": {
+    "bottlenecks": [
+      {
+        "type": "time",
+        "description": "Email review tasks are marked as urgent but appear in both briefings with different email counts (51 vs 0), creating confusion about actual priority",
+        "blocking_tasks": [
+          "Review urgent emails from morning briefing"
+        ],
+        "resolution": "Consolidate email review into a single task with accurate count before proceeding"
+      },
+      {
+        "type": "dependency",
+        "description": "Task optimization recommendations depend on accurate email intelligence, but email counts differ between briefings",
+        "blocking_tasks": [
+          "Complete high-priority tasks first",
+          "Protect deep work time blocks"
+        ],
+        "resolution": "Verify email intelligence data before acting on optimization recommendations"
+      }
+    ],
+    "overloaded_areas": [
+      "email management"
+    ],
+    "resource_conflicts": [
+      "Competing priorities between immediate email response (51 emails) and strategic task completion"
+    ],
+    "recommendations": [
+      "Standardize briefing generation timing to avoid conflicting information",
+      "Implement email triage system to reduce urgent count fluctuations",
+      "Create separate workflow for email management vs strategic tasks"
+    ],
+    "risk_level": "medium"
+  },
+  "recommendations": {
+    "priority_actions": [
+      {
+        "action": "Consolidate email review into a single task with accurate count before proceeding",
+        "impact": "high",
+        "effort": "medium",
+        "deadline": "immediately"
+      },
+      {
+        "action": "Complete high-priority tasks first during deep work blocks",
+        "impact": "high",
+        "effort": "high",
+        "deadline": "today"
+      },
+      {
+        "action": "Protect deep work time blocks from interruptions",
+        "impact": "high",
+        "effort": "low",
+        "deadline": "ongoing"
+      }
+    ],
+    "focus_recommendations": [
+      "Schedule deep work blocks when energy is high (10:30-12:00, 13:00-14:30, 15:00-16:30)",
+      "Use admin blocks for email review and lower-focus tasks (09:00-10:30, 14:30-15:00)",
+      "Take scheduled breaks to maintain energy (12:00-13:00 lunch break)"
+    ],
+    "delegation_opportunities": [],
+    "time_saving_tips": [
+      "Standardize briefing generation timing to avoid conflicting information",
+      "Implement email triage system to reduce urgent count fluctuations",
+      "Create separate workflow for email management vs strategic tasks"
+    ],
+    "weekly_goals": [
+      "Complete all high-priority tasks during protected deep work blocks",
+      "Reduce email count to zero by end of each day",
+      "Establish consistent briefing generation schedule"
+    ],
+    "avoid_these": [
+      "Mixing email review with deep work tasks",
+      "Starting the day without a clear priority list",
+      "Skipping scheduled breaks"
+    ],
+    "energy_management": "Schedule high-focus tasks during high-energy periods (morning and early afternoon), use medium-energy periods for administrative tasks, and take breaks when energy naturally dips (lunchtime).",
+    "generated_at": "2026-02-28T19:10:46.345187"
+  }
+}

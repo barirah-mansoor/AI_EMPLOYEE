@@ -1,0 +1,259 @@
+{
+  "generated_at": "2026-03-02T05:21:52.150527",
+  "tasks_analyzed": 5,
+  "eisenhower_matrix": {
+    "urgent_important": [
+      {
+        "task": "Review urgent emails",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "The briefing indicates emails requiring attention were processed",
+        "suggested_action": "Do first / immediate action"
+      },
+      {
+        "task": "Review urgent emails",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "The briefing indicates emails requiring attention were processed",
+        "suggested_action": "Do first / immediate action"
+      },
+      {
+        "task": "Review urgent emails",
+        "original_file": "gold_briefing_20260301.md",
+        "reason": "The briefing indicates emails requiring attention were processed",
+        "suggested_action": "Do first / immediate action"
+      }
+    ],
+    "important_not_urgent": [
+      {
+        "task": "Complete high-priority tasks",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "The briefing recommends completing high-priority tasks",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Complete high-priority tasks",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "The briefing recommends completing high-priority tasks",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Complete high-priority tasks",
+        "original_file": "gold_briefing_20260301.md",
+        "reason": "The briefing recommends completing high-priority tasks",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "The briefing recommends protecting deep work time",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "The briefing recommends protecting deep work time",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260301.md",
+        "reason": "The briefing recommends protecting deep work time",
+        "suggested_action": "Schedule time"
+      }
+    ],
+    "urgent_not_important": [
+      {
+        "task": "Establish meeting purpose",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Meeting is scheduled for immediate future but purpose is unclear",
+        "suggested_action": "Delegate or minimize"
+      },
+      {
+        "task": "Set agenda for future discussions",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Meeting preparation task that could be delegated",
+        "suggested_action": "Delegate or minimize"
+      }
+    ],
+    "not_urgent_not_important": [
+      {
+        "task": "Analyze 2 tasks",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Analysis was already completed and reported",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Analyze 3 tasks",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Analysis was already completed and reported",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Analyze 4 tasks",
+        "original_file": "gold_briefing_20260301.md",
+        "reason": "Analysis was already completed and reported",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Confirm meeting time and location",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Already scheduled, no further action needed",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Prepare any necessary materials or documents",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "No specific materials mentioned, likely not needed",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Identify potential agenda items",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "Agenda suggestions already provided in the briefing",
+        "suggested_action": "Consider eliminating"
+      },
+      {
+        "task": "Communicate with potential attendees",
+        "original_file": "MEETING_BRIEFING_auto_202603011513_20260301.md",
+        "reason": "No specific attendees identified, likely unnecessary",
+        "suggested_action": "Consider eliminating"
+      }
+    ],
+    "summary": {
+      "total_tasks": 16,
+      "do_first_count": 3,
+      "schedule_count": 6,
+      "delegate_count": 2,
+      "eliminate_count": 5
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-09:30",
+        "task": "Review urgent emails",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "09:30-10:30",
+        "task": "Complete high-priority tasks",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:30-11:00",
+        "task": "Break",
+        "category": "break",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "11:00-12:00",
+        "task": "Complete high-priority tasks",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:00-13:00",
+        "task": "Lunch break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:00-14:30",
+        "task": "Complete high-priority tasks",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "14:30-15:00",
+        "task": "Break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "15:00-16:00",
+        "task": "Protect deep work time blocks",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "16:00-16:30",
+        "task": "Review urgent emails",
+        "category": "admin",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "16:30-17:00",
+        "task": "Prepare for next day",
+        "category": "admin",
+        "energy_level": "low",
+        "focus_required": false
+      }
+    ],
+    "deep_work_blocks": [
+      "09:30-10:30",
+      "11:00-12:00",
+      "13:00-14:30",
+      "15:00-16:00"
+    ],
+    "admin_blocks": [
+      "09:00-09:30",
+      "16:00-16:30",
+      "16:30-17:00"
+    ],
+    "breaks": [
+      "10:30-11:00",
+      "12:00-13:00",
+      "14:30-15:00"
+    ],
+    "protected_time": "Four deep work blocks totaling 4.5 hours protected for high-priority tasks and focused work",
+    "flexibility_buffer": "30 minutes at end of day for unexpected tasks or overflow work"
+  },
+  "bottlenecks": {
+    "bottlenecks": [
+      {
+        "type": "information",
+        "description": "Meeting preparation tasks lack specific details",
+        "blocking_tasks": [
+          "Establish meeting purpose",
+          "Set agenda for future discussions",
+          "Confirm meeting time and location",
+          "Prepare any necessary materials or documents",
+          "Identify potential agenda items",
+          "Communicate with potential attendees"
+        ],
+        "resolution": "Provide specific meeting details, agenda items, and attendee list to enable proper preparation"
+      }
+    ],
+    "overloaded_areas": [
+      "Email processing",
+      "Task analysis"
+    ],
+    "resource_conflicts": [
+      "Task analysis appears to be automated but creates repetitive work that could be eliminated",
+      "Email review tasks are marked as urgent but lack specific prioritization criteria"
+    ],
+    "recommendations": [
+      "Eliminate redundant task analysis reports that have already been completed",
+      "Create specific email prioritization system to reduce urgent email review burden",
+      "Schedule dedicated deep work blocks to protect focus time",
+      "Delegate meeting preparation tasks to a specific person or tool",
+      "Consolidate similar briefing tasks to reduce redundancy"
+    ],
+    "risk_level": "medium"
+  },
+  "recommendations": {
+    "priority_actions": [],
+    "error": "Failed to generate recommendations",
+    "generated_at": "2026-03-02T05:21:52.150466"
+  }
+}

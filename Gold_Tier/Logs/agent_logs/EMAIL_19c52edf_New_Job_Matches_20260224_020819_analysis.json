@@ -1,0 +1,53 @@
+{
+  "file": "/mnt/c/Users/Admin/AI_Employee_Vault/Needs_Action/EMAIL_19c52edf_New_Job_Matches_20260224_020819.md",
+  "analysis": {
+    "sentiment": "neutral",
+    "urgency": "normal",
+    "intent": "information",
+    "intent_details": "Inform recipient about new job matches available on Guru.com platform",
+    "key_topics": [
+      "job matches",
+      "freelance opportunities",
+      "Guru.com"
+    ],
+    "action_required": false,
+    "suggested_priority": "normal",
+    "confidence": 0.95,
+    "analyzed_at": "2026-02-24T05:23:17.258945",
+    "metadata": {
+      "file": "/mnt/c/Users/Admin/AI_Employee_Vault/Needs_Action/EMAIL_19c52edf_New_Job_Matches_20260224_020819.md"
+    }
+  },
+  "action_items": [],
+  "responses": [
+    {
+      "tone": "professional",
+      "subject": "Re: New Job Matches!",
+      "body": "Dear Guru.com Team,\n\nThank you for sending the new job matches. I have received the notification and will review the opportunities at my earliest convenience.\n\nBest regards,\n[Your Name]",
+      "rationale": "A simple acknowledgment confirms receipt without requiring further action, matching the informational nature of the email."
+    },
+    {
+      "tone": "formal",
+      "subject": "Re: New Job Matches!",
+      "body": "Dear Sir/Madam,\n\nI acknowledge receipt of your email regarding new job matches. I will review the opportunities provided and take appropriate action as needed.\n\nYours faithfully,\n[Your Name]",
+      "rationale": "A formal acknowledgment maintains professionalism while confirming the email was received and will be addressed."
+    },
+    {
+      "tone": "casual",
+      "subject": "Re: New Job Matches!",
+      "body": "Hi there,\n\nThanks for the heads up about the new job matches! I'll check them out soon.\n\nBest,\n[Your Name]",
+      "rationale": "A casual response is appropriate given the automated nature of the email and maintains a friendly tone while acknowledging receipt."
+    }
+  ],
+  "auto_respond": {
+    "auto_respond": true,
+    "reason": "Meets auto-response criteria",
+    "recommended_response": {
+      "tone": "professional",
+      "subject": "Re: New Job Matches!",
+      "body": "Dear Guru.com Team,\n\nThank you for sending the new job matches. I have received the notification and will review the opportunities at my earliest convenience.\n\nBest regards,\n[Your Name]",
+      "rationale": "A simple acknowledgment confirms receipt without requiring further action, matching the informational nature of the email."
+    }
+  },
+  "processed_at": "2026-02-24T05:23:27.187527"
+}

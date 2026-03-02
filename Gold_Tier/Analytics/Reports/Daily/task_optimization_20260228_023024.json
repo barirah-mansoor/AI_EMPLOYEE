@@ -1,0 +1,190 @@
+{
+  "generated_at": "2026-02-28T02:30:24.684383",
+  "tasks_analyzed": 3,
+  "eisenhower_matrix": {
+    "urgent_important": [
+      {
+        "task": "Gold Tier Morning Briefing generation",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Provides critical email intelligence and task optimization for the day",
+        "suggested_action": "Do first / immediate action"
+      },
+      {
+        "task": "Gold Tier Morning Briefing generation",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Provides critical email intelligence and task optimization for the day",
+        "suggested_action": "Do first / immediate action"
+      }
+    ],
+    "important_not_urgent": [
+      {
+        "task": "Track long-running tasks using CURRENT_TASK.md",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "Provides systematic task management framework for complex projects",
+        "suggested_action": "Schedule time"
+      }
+    ],
+    "urgent_not_important": [],
+    "not_urgent_not_important": [],
+    "summary": {
+      "total_tasks": 3,
+      "do_first_count": 2,
+      "schedule_count": 1,
+      "delegate_count": 0,
+      "eliminate_count": 0
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-09:30",
+        "task": "Gold Tier Morning Briefing generation (gold_briefing_20260224.md)",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "09:30-10:00",
+        "task": "Gold Tier Morning Briefing generation (gold_briefing_20260228.md)",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:00-10:30",
+        "task": "Review briefings and plan day",
+        "category": "admin",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:30-11:00",
+        "task": "Break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "11:00-12:00",
+        "task": "Track long-running tasks using CURRENT_TASK.md",
+        "category": "admin",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:00-13:00",
+        "task": "Lunch break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:00-14:30",
+        "task": "Core work tasks",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "14:30-15:00",
+        "task": "Break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "15:00-16:30",
+        "task": "Core work tasks",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "16:30-17:00",
+        "task": "Wrap-up and planning for next day",
+        "category": "admin",
+        "energy_level": "low",
+        "focus_required": true
+      }
+    ],
+    "deep_work_blocks": [
+      "09:00-10:30",
+      "13:00-14:30",
+      "15:00-16:30"
+    ],
+    "admin_blocks": [
+      "10:30-11:00",
+      "16:30-17:00"
+    ],
+    "breaks": [
+      "10:30-11:00",
+      "12:00-13:00",
+      "14:30-15:00"
+    ],
+    "protected_time": "09:00-10:30 is protected for critical briefing generation and review",
+    "flexibility_buffer": "15:00-16:30 has flexibility for unexpected urgent tasks"
+  },
+  "bottlenecks": {
+    "bottlenecks": [
+      {
+        "type": "time",
+        "description": "Morning briefing generation may be delayed if email processing takes longer than expected",
+        "blocking_tasks": [
+          "Gold Tier Morning Briefing generation"
+        ],
+        "resolution": "Implement parallel email processing or set time limits for email analysis"
+      }
+    ],
+    "overloaded_areas": [],
+    "resource_conflicts": [],
+    "recommendations": [
+      "Set up automated monitoring for email processing time to prevent briefing delays",
+      "Consider implementing a fallback briefing generation if email processing exceeds time threshold"
+    ],
+    "risk_level": "low"
+  },
+  "recommendations": {
+    "priority_actions": [
+      {
+        "action": "Complete Gold Tier Morning Briefing generation for gold_briefing_20260224.md",
+        "impact": "high",
+        "effort": "medium",
+        "deadline": "09:00-09:30 today"
+      },
+      {
+        "action": "Complete Gold Tier Morning Briefing generation for gold_briefing_20260228.md",
+        "impact": "high",
+        "effort": "medium",
+        "deadline": "09:30-10:00 today"
+      },
+      {
+        "action": "Schedule time for tracking long-running tasks using CURRENT_TASK.md",
+        "impact": "medium",
+        "effort": "low",
+        "deadline": "11:00-12:00 today"
+      }
+    ],
+    "focus_recommendations": [
+      "Protect 09:00-10:30 for critical briefing generation and review",
+      "Use 10:30-11:00 for reviewing briefings and planning the day",
+      "Implement the 50-minute work / 10-minute break cycle to maintain focus"
+    ],
+    "delegation_opportunities": [],
+    "time_saving_tips": [
+      "Set up automated monitoring for email processing time to prevent briefing delays",
+      "Consider implementing a fallback briefing generation if email processing exceeds time threshold"
+    ],
+    "weekly_goals": [
+      "Establish a consistent morning routine with protected time for critical briefings",
+      "Implement systematic task management using CURRENT_TASK.md for complex projects",
+      "Maintain high energy levels during deep work blocks (09:00-10:30, 13:00-14:30, 15:00-16:30)"
+    ],
+    "avoid_these": [
+      "Delaying morning briefing generation as it provides critical email intelligence for the day",
+      "Skipping breaks as they help maintain energy and focus throughout the day",
+      "Overloading the 15:00-16:30 block with non-urgent tasks to maintain flexibility for unexpected urgent tasks"
+    ],
+    "energy_management": "Schedule high-energy tasks (briefing generation) during 09:00-10:30 when energy levels are high. Use medium-energy periods (11:00-12:00, 13:00-14:30, 15:00-16:30) for admin tasks and core work. Take regular breaks (10:30-11:00, 12:00-13:00, 14:30-15:00) to recharge and maintain focus throughout the day.",
+    "generated_at": "2026-02-28T02:30:24.684360"
+  }
+}

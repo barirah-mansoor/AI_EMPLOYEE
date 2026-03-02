@@ -1,0 +1,222 @@
+{
+  "generated_at": "2026-02-28T23:15:48.319415",
+  "tasks_analyzed": 3,
+  "eisenhower_matrix": {
+    "urgent_important": [
+      {
+        "task": "Process urgent emails requiring attention",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Briefing indicates 51 emails requiring attention, suggesting immediate action needed",
+        "suggested_action": "Do first"
+      },
+      {
+        "task": "Complete high-priority tasks first",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Briefing explicitly recommends completing high-priority tasks first",
+        "suggested_action": "Do first"
+      }
+    ],
+    "important_not_urgent": [
+      {
+        "task": "Track and manage long-running tasks",
+        "original_file": "CURRENT_TASK.md",
+        "reason": "File is designed for tracking multi-step tasks, which are important for project completion",
+        "suggested_action": "Schedule time"
+      },
+      {
+        "task": "Protect deep work time blocks",
+        "original_file": "gold_briefing_20260224.md",
+        "reason": "Briefing recommends protecting deep work time blocks for productivity",
+        "suggested_action": "Schedule time"
+      }
+    ],
+    "urgent_not_important": [],
+    "not_urgent_not_important": [
+      {
+        "task": "Review briefings with no actionable items",
+        "original_file": "gold_briefing_20260228.md",
+        "reason": "Briefing shows 0 emails requiring attention and no specific urgent tasks",
+        "suggested_action": "Consider eliminating"
+      }
+    ],
+    "summary": {
+      "total_tasks": 4,
+      "do_first_count": 2,
+      "schedule_count": 2,
+      "delegate_count": 0,
+      "eliminate_count": 0
+    }
+  },
+  "optimized_schedule": {
+    "daily_schedule": [
+      {
+        "time_block": "09:00-10:30",
+        "task": "Process urgent emails requiring attention (51 emails)",
+        "category": "admin",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "10:30-11:00",
+        "task": "Complete high-priority tasks first",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "11:00-11:15",
+        "task": "Morning break",
+        "category": "break",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "11:15-12:30",
+        "task": "Deep work block - Focus on complex tasks",
+        "category": "deep_work",
+        "energy_level": "high",
+        "focus_required": true
+      },
+      {
+        "time_block": "12:30-13:30",
+        "task": "Lunch break",
+        "category": "break",
+        "energy_level": "low",
+        "focus_required": false
+      },
+      {
+        "time_block": "13:30-15:00",
+        "task": "Track and manage long-running tasks",
+        "category": "admin",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "15:00-15:15",
+        "task": "Afternoon break",
+        "category": "break",
+        "energy_level": "medium",
+        "focus_required": false
+      },
+      {
+        "time_block": "15:15-16:30",
+        "task": "Protect deep work time blocks - Continue important tasks",
+        "category": "deep_work",
+        "energy_level": "medium",
+        "focus_required": true
+      },
+      {
+        "time_block": "16:30-17:00",
+        "task": "Wrap up and prepare for tomorrow",
+        "category": "admin",
+        "energy_level": "low",
+        "focus_required": false
+      }
+    ],
+    "deep_work_blocks": [
+      "11:15-12:30",
+      "15:15-16:30"
+    ],
+    "admin_blocks": [
+      "09:00-10:30",
+      "13:30-15:00",
+      "16:30-17:00"
+    ],
+    "breaks": [
+      "11:00-11:15",
+      "12:30-13:30",
+      "15:00-15:15"
+    ],
+    "protected_time": "Deep work blocks from 11:15-12:30 and 15:15-16:30 are protected for focused, important work",
+    "flexibility_buffer": "15:00-15:15 break and final hour (16:30-17:00) can absorb unexpected urgent tasks"
+  },
+  "bottlenecks": {
+    "bottlenecks": [
+      {
+        "type": "time",
+        "description": "Processing 51 urgent emails is consuming significant time that could be allocated to high-priority tasks",
+        "blocking_tasks": [
+          "Complete high-priority tasks first",
+          "Protect deep work time blocks"
+        ],
+        "resolution": "Batch process emails in scheduled time blocks rather than continuously"
+      },
+      {
+        "type": "information",
+        "description": "CURRENT_TASK.md shows idle status but no active task tracking, creating uncertainty about ongoing work",
+        "blocking_tasks": [
+          "Track and manage long-running tasks"
+        ],
+        "resolution": "Establish clear task initiation protocol and update status immediately when starting work"
+      }
+    ],
+    "overloaded_areas": [
+      "Email processing",
+      "Task prioritization"
+    ],
+    "resource_conflicts": [
+      "Competing demands between email response time and deep work blocks",
+      "Uncertainty about which tasks are actually in progress due to tracking gaps"
+    ],
+    "recommendations": [
+      "Implement email processing windows (e.g., 30 minutes morning/evening)",
+      "Create standardized task initiation checklist to ensure proper tracking",
+      "Use Eisenhower Matrix daily to validate task priorities",
+      "Set MAX_ITERATIONS=10 for Ralph Wiggum pattern to prevent infinite loops"
+    ],
+    "risk_level": "medium"
+  },
+  "recommendations": {
+    "priority_actions": [
+      {
+        "action": "Process urgent emails requiring attention (51 emails) during 09:00-10:30 time block",
+        "impact": "high",
+        "effort": "medium",
+        "deadline": "today"
+      },
+      {
+        "action": "Complete high-priority tasks first during 10:30-11:00 time block",
+        "impact": "high",
+        "effort": "high",
+        "deadline": "today"
+      },
+      {
+        "action": "Establish email processing windows (30 minutes morning/evening) to prevent continuous interruptions",
+        "impact": "high",
+        "effort": "low",
+        "deadline": "this week"
+      },
+      {
+        "action": "Create standardized task initiation checklist to ensure proper tracking in CURRENT_TASK.md",
+        "impact": "medium",
+        "effort": "low",
+        "deadline": "this week"
+      }
+    ],
+    "focus_recommendations": [
+      "Protect deep work blocks from 11:15-12:30 and 15:15-16:30 for focused, important work",
+      "Use Eisenhower Matrix daily to validate task priorities",
+      "Batch process similar tasks together to minimize context switching"
+    ],
+    "delegation_opportunities": [
+      "Consider delegating email triage to an assistant for initial sorting"
+    ],
+    "time_saving_tips": [
+      "Set MAX_ITERATIONS=10 for Ralph Wiggum pattern to prevent infinite loops",
+      "Use standardized templates for common responses to reduce email writing time",
+      "Schedule all administrative tasks in dedicated blocks rather than scattered throughout the day"
+    ],
+    "weekly_goals": [
+      "Implement email processing windows and stick to them for 5 consecutive days",
+      "Complete all high-priority tasks before moving to lower priority items",
+      "Track all long-running tasks with clear status updates in CURRENT_TASK.md"
+    ],
+    "avoid_these": [
+      "Don't continuously check emails throughout the day - stick to scheduled windows",
+      "Avoid starting new tasks without updating CURRENT_TASK.md status",
+      "Don't sacrifice deep work blocks for urgent but unimportant tasks"
+    ],
+    "energy_management": "Schedule high-focus tasks during peak energy periods (morning), use medium energy for administrative tasks, and reserve low energy periods for breaks and wrap-up activities",
+    "generated_at": "2026-02-28T23:15:48.319332"
+  }
+}

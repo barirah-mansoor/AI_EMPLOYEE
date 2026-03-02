@@ -1,0 +1,37 @@
+agent_pool:
+
+  specialist_agents:
+    - name: "email_specialist"
+      type: "email_agent"
+      expertise: "email_processing"
+      capacity: 50
+
+    - name: "research_specialist"
+      type: "research_agent"
+      expertise: "deep_research"
+      capacity: 10
+
+    - name: "meeting_specialist"
+      type: "meeting_agent"
+      expertise: "meeting_management"
+      capacity: 20
+
+    - name: "code_specialist"
+      type: "code_agent"
+      expertise: "code_review"
+      capacity: 15
+
+    - name: "analytics_specialist"
+      type: "analytics_agent"
+      expertise: "data_analysis"
+      capacity: 25
+
+  collaboration_rules:
+    - trigger: "complex_research"
+      agents: ["research_specialist", "analytics_specialist"]
+
+    - trigger: "meeting_with_code_review"
+      agents: ["meeting_specialist", "code_specialist"]
+
+    - trigger: "email_requires_research"
+      agents: ["email_specialist", "research_specialist"]

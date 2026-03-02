@@ -1,0 +1,57 @@
+{
+  "file": "/mnt/c/Users/Admin/AI_Employee_Vault/Needs_Action/EMAIL_19c533c1_Registration_is_now_20260224_020819.md",
+  "analysis": {
+    "sentiment": "positive",
+    "urgency": "normal",
+    "intent": "information",
+    "intent_details": "Announcing registration opening for posit::conf(2026) with details on pricing, Call for Talks extension, and in-person/virtual options",
+    "key_topics": [
+      "conference registration",
+      "posit::conf(2026)",
+      "Call for Talks",
+      "workshops",
+      "in-person event",
+      "virtual event"
+    ],
+    "action_required": false,
+    "suggested_priority": "normal",
+    "confidence": 0.95,
+    "analyzed_at": "2026-02-24T05:23:32.049756",
+    "metadata": {
+      "file": "/mnt/c/Users/Admin/AI_Employee_Vault/Needs_Action/EMAIL_19c533c1_Registration_is_now_20260224_020819.md"
+    }
+  },
+  "action_items": [
+    {
+      "action": "Register for posit::conf(2026) by April 10 to lock in Super Early Bird pricing",
+      "deadline": "2026-04-10",
+      "priority": "normal",
+      "assigned_to": "me"
+    },
+    {
+      "action": "Submit talk proposal by February 20",
+      "deadline": "2026-02-20",
+      "priority": "normal",
+      "assigned_to": "me"
+    }
+  ],
+  "responses": [
+    {
+      "tone": "professional",
+      "subject": "Re: Your email",
+      "body": "Thank you for your email. I will review and respond shortly.",
+      "rationale": "Default response when generation fails"
+    }
+  ],
+  "auto_respond": {
+    "auto_respond": true,
+    "reason": "Meets auto-response criteria",
+    "recommended_response": {
+      "tone": "professional",
+      "subject": "Re: Your email",
+      "body": "Thank you for your email. I will review and respond shortly.",
+      "rationale": "Default response when generation fails"
+    }
+  },
+  "processed_at": "2026-02-24T05:23:53.807720"
+}

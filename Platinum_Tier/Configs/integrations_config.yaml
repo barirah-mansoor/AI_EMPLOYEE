@@ -1,0 +1,38 @@
+integrations:
+
+  slack:
+    features:
+      - auto_respond_mentions
+      - channel_monitoring
+      - slash_commands
+      - interactive_messages
+      - scheduled_updates
+    commands:
+      - /briefing
+      - /tasks
+      - /research
+      - /analytics
+
+  notion:
+    sync_frequency: "15min"
+    auto_create_pages: true
+    template_ids:
+      meeting_notes: ""
+      project_brief: ""
+      research_summary: ""
+
+  github:
+    features:
+      - pr_auto_review
+      - issue_triage
+      - code_analysis
+      - release_notes
+    review_criteria:
+      - code_quality
+      - security_vulnerabilities
+      - test_coverage
+
+  linear:
+    sync_tasks: true
+    auto_update_status: true
+    create_from_emails: true
